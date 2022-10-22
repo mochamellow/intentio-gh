@@ -1,25 +1,25 @@
 <header>
-    <a href="/"><h1><img class="logo" src="intentio-logo.svg" alt="intentio-logo"></h1></a>
+    <a href="/"><h1><img class="logo" src="./intentio-logo.svg" alt="intentio-logo"></h1></a>
 
     <!-- TODO- Links to Other Pages -->
     <div class="nav">
         <a href="#">
             <div class="inline-icon-text">
-                <img src="/icons/sparkles.svg" alt="sparkles icon">
+                <img src="./icons/sparkles.svg" alt="sparkles icon">
                 <h4>Features</h4>
             </div>
         </a>
 
         <a href="/how-intentio-works">
             <div class="inline-icon-text">
-                <img src="/icons/shapes.svg" alt="shapes icon">
+                <img src="./icons/shapes.svg" alt="shapes icon">
                 <h4>How Intentio Works?</h4>
             </div>
         </a>
 
         <a href="/intentio-questions">
             <div class="inline-icon-text">
-                <img src="/icons/puzzle.svg" alt="puzzle icon">
+                <img src="./icons/puzzle.svg" alt="puzzle icon">
                 <h4>Intent Questions</h4>
             </div>
         </a>

@@ -18,7 +18,7 @@
 
     <p>When you visit a blocked site, you'll get asked a short series of question—designed to snap you out of the mindless state.</p>
 
-    <img src="img/intentio_questions.png" alt="intentio questions diagram">
+    <img src="./img/intentio_questions.png" alt="intentio questions diagram">
 
 </main>
 <Banner />
@@ -28,7 +28,7 @@
 	@font-face {
         font-family: 'SofiaProSemiBold';
         font-style: normal;
-        src:local('SofiaProSemiBold'), url(/fonts/SofiaProSemiBold.otf) format('otf');
+        src:local('SofiaProSemiBold'), url(./fonts/SofiaProSemiBold.otf) format('otf');
     }
 
     .center {
@@ -38,7 +38,7 @@
         margin-bottom: 1.5rem;
 
         .puzzle {
-            background-image: url(icons/puzzle.svg);
+            background-image: url(./icons/puzzle.svg);
             width: 2rem;
             height: 2rem;
             background-size: cover;

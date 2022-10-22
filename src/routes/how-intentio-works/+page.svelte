@@ -75,7 +75,7 @@
 	@font-face {
         font-family: 'SofiaProSemiBold';
         font-style: normal;
-        src:local('SofiaProSemiBold'), url(/fonts/SofiaProSemiBold.otf) format('otf');
+        src:local('SofiaProSemiBold'), url(./fonts/SofiaProSemiBold.otf) format('otf');
     }
 
     .center {
@@ -86,7 +86,7 @@
     }
 
     .shapes {
-        background-image: url(icons/shapes.svg);
+        background-image: url(./icons/shapes.svg);
         width: 2rem;
         height: 2rem;
         background-size: cover;
@@ -116,7 +116,7 @@
     }
 
     .caret-down {
-        background-image: url(icons/caret-down.svg);
+        background-image: url(./icons/caret-down.svg);
         width: 1.5rem;
         height: 1.5rem;
         background-size: cover;

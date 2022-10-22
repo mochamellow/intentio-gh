@@ -1,7 +1,7 @@
 <footer>
 
     <div class="left-footer">
-        <h1><img src="intentio-logo.svg" alt="intentio-logo"></h1>
+        <h1><img src="./intentio-logo.svg" alt="intentio-logo"></h1>
         <div class="copyright">© 2022 Intentio. All Rights Reserved.</div>
     </div>
     <div class="right-footer">
@@ -16,9 +16,9 @@
         &nbsp;
         <!-- TODO- Link to Your Socials -->
         <div class="socials">
-            <a href="#"><img src="icons/logo-linkedin.svg" alt="linkedin logo"></a>
-            <a href="#"><img src="icons/logo-behance.svg" alt="behance logo"></a>
-            <a href="#"><img src="icons/mail.svg" alt="mail icon"></a>
+            <a href="#"><img src="./icons/logo-linkedin.svg" alt="linkedin logo"></a>
+            <a href="#"><img src="./icons/logo-behance.svg" alt="behance logo"></a>
+            <a href="#"><img src="./icons/mail.svg" alt="mail icon"></a>
         </div>
     </div> 
 </footer>
@@ -67,7 +67,7 @@
     }
     
     .cafe {
-        background-image: url(icons/cafe.svg);
+        background-image: url(./icons/cafe.svg);
         width: 20px;
         height: 20px;
         background-size: cover;

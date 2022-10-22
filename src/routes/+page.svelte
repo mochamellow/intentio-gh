@@ -18,7 +18,7 @@
 	@font-face {
         font-family: 'SofiaProSemiBold';
         font-style: normal;
-        src:local('SofiaProSemiBold'), url(fonts/SofiaProSemiBold) format('otf');
+        src:local('SofiaProSemiBold'), url(./fonts/SofiaProSemiBold) format('otf');
     }
 
     p {
