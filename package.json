@@ -19,5 +19,8 @@
 	"type": "module",
 	"engines": {
 		"node": ">=16.14"
+	},
+	"dependencies": {
+		"nvm": "^0.0.4"
 	}
 }
