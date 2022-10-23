@@ -12,7 +12,7 @@
 <main>
 	
     <div class="center">
-        <div class="puzzle"></div>
+        <img class="puzzle" src="./icons/puzzle.svg" alt="puzzle icon">
         <h1>Intentio Questions</h1>
     </div>
 
@@ -38,10 +38,8 @@
         margin-bottom: 1.5rem;
 
         .puzzle {
-            background-image: url(./icons/puzzle.svg);
             width: 2rem;
             height: 2rem;
-            background-size: cover;
             margin: auto;
         }
 
