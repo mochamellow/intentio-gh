@@ -47,6 +47,7 @@
     .nav {
         display: flex;
         gap: 24px;
+        margin-top: -8px;
     }
 
     img {
