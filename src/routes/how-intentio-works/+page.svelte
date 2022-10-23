@@ -9,7 +9,7 @@
         showModal = !showModal;
     }
 
-    let showRef = true;
+    let showRef = false;
     const toggleRef = () => {showRef = !showRef}
 </script>
 
