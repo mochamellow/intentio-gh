@@ -67,11 +67,37 @@
         </li>
     <ul/>
 
+    <img class="lines-3" src="./img/lines-onwhite-3.svg" alt="lines background illustration">
 </main>
+    <img class="lines-1" src="./img/lines-onwhite-1.svg" alt="lines background illustration">
+    <img class="lines-2" src="./img/lines-onwhite-2.svg" alt="lines background illustration">
+
 <Banner />
 <Footer />
 
 <style lang="scss">
+
+    .lines-1 {
+        position: absolute;
+        max-width: 22%;
+        left: 0;
+        top: 20%;
+    }
+
+    .lines-2 {
+        position: absolute;
+        max-width: 22%;
+        right: 0;
+        top: 70%;
+    }
+
+    .lines-3 {
+        position: absolute;
+        transform: translate(0%, -68%);
+        max-width: 22%;
+        left: 0;
+    }
+
 	@font-face {
         font-family: 'SofiaProSemiBold';
         font-style: normal;
@@ -136,7 +162,7 @@
     }
 
     .references {
-        margin-bottom: 5rem;
+         margin-bottom: 5rem;
 
         li {
         font-family: "Sofia Pro";

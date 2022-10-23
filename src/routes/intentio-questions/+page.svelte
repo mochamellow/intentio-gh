@@ -20,7 +20,10 @@
 
     <img src="./img/intentio_questions.png" alt="intentio questions diagram">
 
+    <img class="lines-3" src="./img/lines-onwhite-3.svg" alt="lines background illustration">
 </main>
+    <img class="lines-1" src="./img/lines-onwhite-1.svg" alt="lines background illustration">
+    <img class="lines-2" src="./img/lines-onwhite-2.svg" alt="lines background illustration">
 <Banner />
 <Footer />
 
@@ -80,6 +83,27 @@
 		max-width: 948px;
 		margin: 32px auto;
 	}
+
+    .lines-1 {
+        position: absolute;
+        max-width: 22%;
+        left: 0;
+        top: 20%;
+    }
+
+    .lines-2 {
+        position: absolute;
+        max-width: 22%;
+        right: 0;
+        top: 70%;
+    }
+
+    .lines-3 {
+        position: absolute;
+        transform: translate(0%, -100%);
+        max-width: 22%;
+        left: 0;
+    }
 
 
 </style>
