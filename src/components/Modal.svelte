@@ -10,6 +10,7 @@
     <div class="backdrop" on:click|self>
         <div class="modal">
             <div class="inline-icon-text">
+                <img class="help-circle" src="./icons/help-circle.svg" alt="help icon">
                 <h4>{title}</h4>
                 <img class="close" src="./icons/close.svg" alt="close icon" on:click|self>
             </div>
@@ -33,7 +34,7 @@
         padding-inline: 40px;
         padding-top: 8px;
         padding-bottom: 32px;
-        border-radius: 10px;
+        border-radius: 16px;
         max-width: 800px;
         position: absolute;
         top: 50%;
@@ -49,11 +50,18 @@
             margin-top: -8px;
             margin-bottom: -8px;
 
+            .help-circle {
+                width: 32px;
+                height: 32px;
+                margin-right: 8px;
+                margin-top: -5px;
+            }
+
             h4 {
                 font-family: "Sofia Pro";
                 font-weight: bold;
                 font-size: 1.8rem;
-                padding-right: 12rem;
+                margin-right: auto;
                 
             }
     
@@ -70,7 +78,7 @@
             font-family: "Sofia Pro";
             margin-block: 0;
             font-family: "Sofia Pro";
-            line-height: 1.8rem;
+            line-height: 2rem;
             line-break: normal;
         }
     }

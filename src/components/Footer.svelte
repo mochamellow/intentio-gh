@@ -1,7 +1,7 @@
 <footer>
 
     <div class="left-footer">
-        <h1><img src="./intentio-logo.svg" alt="intentio-logo"></h1>
+        <h1 class="logo"><img src="./intentio-logo.svg" alt="intentio-logo"></h1>
         <div class="copyright">© 2022 Intentio. All Rights Reserved.</div>
     </div>
     <div class="right-footer">
@@ -34,7 +34,7 @@
         align-items: center;
     }
 
-    h1 {
+    .logo {
         margin-top: 0;
     } 
 
@@ -48,39 +48,44 @@
         font-weight: 100;
         color: #6A6A6A;
         display: inline-block;
+        margin-top: 8px;
     }
 
     .right-footer {
 
         p {
-        font-size: 0.9rem;
-        font-family: 'Sofia Pro';
-        margin:0;
+            font-size: 0.9rem;
+            font-family: 'Sofia Pro';
+            margin:0;
+        }
+
+        .information {
+            line-height: 1.6rem;
+
+            #one-liner {
+                display: flex;
+                align-items: center;
+                gap: 4px;
+                justify-content: end;
+            }
+        }
+        
+
+        .socials {
+            display: flex;
+            gap: 16px;
+            align-items: center;
+            justify-content: end;
         }
     }
     
-    #one-liner {
-        display: flex;
-        align-items: center;
-        gap: 4px;
-        justify-content: end;
-    }
     
     .cafe {
         width: 20px;
         height: 20px;
     }
 
-    .information {
-        line-height: 1.6rem;
-    }
-
-    .socials {
-        display: flex;
-        gap: 16px;
-        align-items: center;
-        justify-content: end;
-    }
+    
 
     .rainbow {
         animation: color-change 5s infinite;
