@@ -70,6 +70,8 @@
             border: 0px;
             border-radius: 0.75rem;
             cursor: pointer;
+            color: #0F0E17;
+            font-size: 16px;
             
             .logo-chrome {
                 width: 1.5rem;

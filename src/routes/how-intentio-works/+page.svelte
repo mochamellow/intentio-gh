@@ -1,12 +1,22 @@
 <script>
-	
 	import Header from '../../components/Header.svelte';
 	import Banner from '../../components/Banner.svelte';
 	import Footer from '../../components/Footer.svelte';
+    import Modal from '../../components/Modal.svelte';
 
+    let showModal = false;
+    const toggleModal = () => {
+        showModal = !showModal;
+    }
+
+    let showRef = true;
+    const toggleRef = () => {showRef = !showRef}
 </script>
 
+<Modal title="Bottom-up Processing" message="Bottom-up processing is the process of ‘sensation’, whereby the input of sensory information from the external environment is received by our sensory receptors." showModal={showModal} on:click={toggleModal}/>
 <Header />
+
+
 <div id="line"></div>
 <main>
 	
@@ -22,7 +32,7 @@
     <p>As technology becomes more sophisticated, it gets better at hijacking our attention. As technology companies are at war for our attention—and as they get better and better in claiming our attention—essentially we lose out on everything else (studying for that exam, working towards that personal project, side hustles, or the things that you actually want to do) because our attention is being grabbed by all of these platforms.</p>
 
     <!-- TODO- To add bottom up processing tooltip explanation -->
-    <p>The mechanism they use to pull our attention away from our goals is through the sensory stimuli that take advantage of <span style="text-decoration: underline">bottom-up processing</span>.</p>
+    <p>The mechanism they use to pull our attention away from our goals is through the sensory stimuli that take advantage of <span><a href="#" on:click={toggleModal}>bottom-up processing</a></span>.</p>
 
     <p>And as technology improves and gets better at claiming our attention—more effort is needed for us to give into controlling our minds and focus on the things we want to do. </p>
 
@@ -46,26 +56,37 @@
     <p>Because the internet is undeniably a part of our lives now (and you can always find a way to get your cravings met), it’s a good idea to understand what makes you want to do those things and shift your actions mindfully towards the things you want to do.</p>
 
     <div class="inline-icon-text">
-        <a href="#">
-            <div class="caret-down"></div>
-        </a>
+            <!-- svelte-ignore a11y-click-events-have-key-events -->
+            {#if showRef}
+                <img class="caret-down" src="./icons/caret-down.svg" alt="caret down icon" on:click|self={toggleRef}>
+            {/if}
+                
+            {#if !showRef}
+                <!-- svelte-ignore a11y-click-events-have-key-events -->
+                <img class="caret-down" src="./icons/caret-forward.svg" alt="caret forward icon" on:click|self={toggleRef}>
+            {/if}
+
         <h3>References</h3>
     </div>
 
+    
     <ul class="references">
-        <li>
-             Purohit, Aditya & Holzer, Adrian. (2021). Unhooked by Design: Scrolling Mindfully on Social Media by Automating Digital Nudges. <span> <a href="https://bit.ly/3EM54Do">https://bit.ly/3EM54Do</a></span>
-        </li>
-        <li>
-            Purohit, A. K., & Holzer, A. (2019). Functional digital nudges. *Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing Systems*. <span><a href="https://doi.org/10.1145/3290607.3312876">https://doi.org/10.1145/3290607.3312876</a></span>
-        </li>
-        <li>
-            Okeke, F., Sobolev, M., Dell, N., & Estrin, D. (2018). Good vibrations. *Proceedings of the 20th International Conference on Human-Computer Interaction with Mobile Devices and Services*. <span><a href="https://doi.org/10.1145/3229434.3229463">https://doi.org/10.1145/3229434.3229463</a></span>
-        </li>
-        <li>
-            KAIST, U. L., Lee, U., & Metrics, O. M. V. A. (2019, March 1). *Goalkeeper: Exploring interaction lockout mechanisms for regulating smartphone use: Proceedings of the ACM ON Interactive, Mobile, wearable and Ubiquitous Technologies: Vol 3, no 1*. Proceedings of the ACM on Interactive, Mobile, Wearable, and Ubiquitous Technologies. <span><a href="https://dl.acm.org/doi/10.1145/3314403">https://dl.acm.org/doi/10.1145/3314403</a></span>
-        </li>
-    <ul/>
+            {#if showRef}
+                <li>
+                    Purohit, Aditya & Holzer, Adrian. (2021). Unhooked by Design: Scrolling Mindfully on Social Media by Automating Digital Nudges. <span> <a href="https://bit.ly/3EM54Do">https://bit.ly/3EM54Do</a></span>
+                </li>
+                <li>
+                    Purohit, A. K., & Holzer, A. (2019). Functional digital nudges. *Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing Systems*. <span><a href="https://doi.org/10.1145/3290607.3312876">https://doi.org/10.1145/3290607.3312876</a></span>
+                </li>
+                <li>
+                    Okeke, F., Sobolev, M., Dell, N., & Estrin, D. (2018). Good vibrations. *Proceedings of the 20th International Conference on Human-Computer Interaction with Mobile Devices and Services*. <span><a href="https://doi.org/10.1145/3229434.3229463">https://doi.org/10.1145/3229434.3229463</a></span>
+                </li>
+                <li>
+                    KAIST, U. L., Lee, U., & Metrics, O. M. V. A. (2019, March 1). *Goalkeeper: Exploring interaction lockout mechanisms for regulating smartphone use: Proceedings of the ACM ON Interactive, Mobile, wearable and Ubiquitous Technologies: Vol 3, no 1*. Proceedings of the ACM on Interactive, Mobile, Wearable, and Ubiquitous Technologies. <span><a href="https://dl.acm.org/doi/10.1145/3314403">https://dl.acm.org/doi/10.1145/3314403</a></span>
+                </li>
+            {/if}
+        <ul/>
+        
 
     <img class="lines-3" src="./img/lines-onwhite-3.svg" alt="lines background illustration">
 </main>
@@ -96,6 +117,7 @@
         transform: translate(0%, -68%);
         max-width: 22%;
         left: 0;
+        z-index: -1;
     }
 
 	@font-face {
@@ -119,15 +141,11 @@
 
     h1{
         font-family: "SofiaProSemiBold";
-        font-size: 32px;
+        font-size: 2rem;
         font-weight: 100;
     }
 
-    h3 {
-        font-family: "SofiaProSemiBold";
-        font-size: 1.5rem;
-        font-weight: normal;
-    }
+   
 
     a {
         color: #0f0e17;
@@ -137,13 +155,20 @@
         display: flex;
         align-items: center;
         gap: 8px;
+
+        h3 {
+            font-family: "SofiaProSemiBold";
+            font-size: 1.5rem;
+            font-weight: normal;
+            padding-top: 4px;
+        }
     }
 
     .caret-down {
-        background-image: url(./icons/caret-down.svg);
         width: 1.5rem;
         height: 1.5rem;
         background-size: cover;
+        cursor: pointer;
     }
 
     p {
