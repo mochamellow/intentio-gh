@@ -8,7 +8,7 @@
         <div class="information">
             <div id="one-liner">
                 <p>Made with</p>
-                <div class="cafe"></div>
+                <img src="./icons/cafe.svg" class="cafe" alt="cafe icon">
                 <p>and a hint of procrastination by <span class="rainbow">Gil</span></p>
             </div>
             <p>Have suggestions, comments, or questions? Reach out!</p>
@@ -67,10 +67,8 @@
     }
     
     .cafe {
-        background-image: url(./icons/cafe.svg);
         width: 20px;
         height: 20px;
-        background-size: cover;
     }
 
     .information {
