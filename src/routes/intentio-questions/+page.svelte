@@ -18,7 +18,7 @@
 
     <p>When you visit a blocked site, you'll get asked a short series of question—designed to snap you out of the mindless state.</p>
 
-    <img src="./img/intentio_questions.png" alt="intentio questions diagram">
+    <img class="question-diagram" src="./img/intentio_questions.png" alt="intentio questions diagram">
 
     <img class="lines-3" src="./img/lines-onwhite-3.svg" alt="lines background illustration">
 </main>
@@ -63,10 +63,11 @@
         margin-bottom: 4rem;
     }
 
-    img {
+    .question-diagram {
         display: flex;
         margin-inline: auto;
         margin-bottom: 5rem;
+        max-width: 48.8rem;
     }
 
 	:global(body) {
