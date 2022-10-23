@@ -11,7 +11,7 @@
 <main>
 	
     <div class="center">
-        <div class="shapes"></div>
+        <img class="shapes" src="./icons/shapes.svg" alt="shapes icon">
         <h1>How Intentio Works?</h1>
     </div>
 
@@ -86,10 +86,8 @@
     }
 
     .shapes {
-        background-image: url(./icons/shapes.svg);
         width: 2rem;
         height: 2rem;
-        background-size: cover;
         margin: auto;
     }
 
