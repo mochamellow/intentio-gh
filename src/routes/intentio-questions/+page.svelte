@@ -18,7 +18,7 @@
 
     <p>When you visit a blocked site, you'll get asked a short series of question—designed to snap you out of the mindless state.</p>
 
-    <img class="question-diagram" src="./img/intentio_questions.png" alt="intentio questions diagram">
+    <img class="question-diagram" src="./img/intentio-questions.svg" alt="intentio questions diagram">
 
     <img class="lines-3" src="./img/lines-onwhite-3.svg" alt="lines background illustration">
 </main>
