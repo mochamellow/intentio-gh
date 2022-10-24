@@ -39,8 +39,14 @@
 		<h3>Be aware.</h3>
 		<h3>Be accountable.</h3>
 		<h3>Be intentional.</h3>
+		<h3>Be aware.</h3>
+		<h3>Be accountable.</h3>
+		<h3>Be intentional.</h3>
 	</div>
 	<div class="div2">
+		<h3>Be aware.</h3>
+		<h3>Be accountable.</h3>
+		<h3>Be intentional.</h3>
 		<h3>Be aware.</h3>
 		<h3>Be accountable.</h3>
 		<h3>Be intentional.</h3>
