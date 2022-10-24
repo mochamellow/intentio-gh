@@ -165,6 +165,29 @@
 		margin: 0;
 		padding: 0;
 		overflow: overlay;
+		::-webkit-scrollbar {
+		width: 40px;
+		}
+	}
+
+	/* Width*/
+	:root::-webkit-scrollbar {
+		width: 5px;
+	}
+
+	/* Track */
+	:root::-webkit-scrollbar-track {
+		background: transparent;
+	}
+
+	/* Handle */
+	:root::-webkit-scrollbar-thumb {
+		background: #0f0e17;
+	}
+
+	/* Handle on hover */
+	:root::-webkit-scrollbar-thumb:hover {
+		background: #302e2b;
 	}
 
 	#line {
