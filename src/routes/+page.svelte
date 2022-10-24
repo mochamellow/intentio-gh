@@ -60,13 +60,185 @@
 </div>
 
 <main>
-	<p>hello</p>
+    <div class="center">
+        <img class="sparkle" src="./icons/sparkles.svg" alt="shapes icon">
+        <h2>Features</h2>
+    </div>
+
+	<div class="feature-section feature-gap-1">
+		<div class="feature-content" style="width: 408px">
+			<div class="icons">
+				<img src="./icons/book.svg" alt="book icon">
+				<img src="./icons/happy.svg" alt="smiley icon">
+			</div>
+			<div class="text-container">
+				<h3 style="width: 18.5rem;">Create Custom Block & Focus Sites</h3>
+				<p style="width: 21.6rem;">Block the time-wasting sites that distract you and add the sites you use to work towards your goals into focus sites.</p>
+			</div>
+		</div>
+		<div class="img-container img-container-right">
+			<!-- svelte-ignore a11y-img-redundant-alt -->
+			<img class="feature-content-1" src="./img/feature-content1.png" alt="feature image 1">
+		</div>
+	</div>
+
+	<div class="feature-section feature-gap-2">
+		<div class="img-container img-container-left">
+			<a href="/intentio-questions"><button id="question-button"><img class="logo-chrome" src="./icons/logo-chrome.svg" alt="chrome logo" >View Questions</button></a>
+			<!-- svelte-ignore a11y-img-redundant-alt -->
+			<img class="feature-content-2" src="./img/feature-content2.png" alt="feature image 1">
+		</div>
+		<div class="feature-content" style="width: 408px">
+			<div class="icons">
+				<img src="./icons/accessibility.svg" alt="book icon">
+			</div>
+			<div class="text-container">
+				<div class="title-container">
+					<h3 id="text1" style="width: 18.5rem;">Shift From</h3>
+					<div class="one-liner-text-icon">
+						<h3 id="text2">Mindless</h3>
+						<img class="arrow-forward" src="./icons/arrow-forward.svg" alt="arrow forward icon">
+						<h3 id="text2">Mindfull</h3>
+					</div>
+				</div>
+				<p style="width: 21.6rem;">When you visit a blocked site, you’ll get asked a short series of questions—designed to snap you out of the mindless state.</p>
+			</div>
+		</div>
+	</div>
+
 </main>
 
 <Banner />
 <Footer />
 
 <style lang="scss">
+
+        #question-button {
+			position: absolute;
+			left: 50%;
+			top: 51%;
+			transform: translate(-50%, -50%);
+            font-family: "Bespoke Slab";
+            font-weight: bold;
+            padding-top: 1rem;
+            padding-bottom: 0.8rem;
+            padding-left: 1.25rem;
+            padding-right: 1.4rem;
+            background-color: #0f0e17;
+            border: 0px;
+            border-radius: 0.75rem;
+            cursor: pointer;
+            color: #F9F4EF;
+            font-size: 16px;
+			box-shadow: 0px 0px 24px rgba(15, 14, 23, 0.32);
+
+            .logo-chrome {
+                width: 1.5rem;
+                height: 1.5rem;
+                vertical-align: middle;
+                margin-right: 0.75rem;
+                margin-bottom: 4px;
+            }
+        }
+
+	.title-container {
+		#text1 {
+			margin-bottom: 0px;
+		}
+		
+		.one-liner-text-icon {
+			display: flex;
+			gap: 0.5rem;
+			align-items: center;
+			margin-bottom: 0.5rem;
+
+			#text2 {
+				margin-bottom: 0;
+			}
+
+			.arrow-forward {
+				width: 2.25rem;
+				height: 2.25rem;
+				margin-bottom: 0.2rem;
+			}
+		}
+	}
+
+	.feature-gap-1 {
+		gap: 1.125rem;
+	}
+
+	.feature-gap-2 {
+		gap: 69px;
+	}
+
+	.feature-section {
+		display: flex;
+		align-items: center;
+		margin-bottom: 4rem;
+
+		.feature-content {
+
+			.icons {
+				display: flex;
+				gap: 1rem;
+				margin-bottom: 1rem;
+
+				img {
+					width: 2rem;
+					height: 2rem;
+				}
+			}
+			
+			.text-container {
+
+				h3 {
+					font-family: "SofiaProSemiBold";
+					font-weight: normal;
+					font-size: 2rem;
+					line-height: 2.25rem;
+					margin-top: 0;
+					margin-bottom: 0.5rem;
+				}
+
+				p {
+					font-size: 1rem;
+					font-family: "Sofia Pro";
+					font-weight: normal;
+					line-height: 1.5rem;
+					margin:0;
+				}
+			}
+		}
+
+		.img-container {
+			background-color: #E7E1D2;
+			border-radius: 1rem;
+			border: 2px solid #0f0e17;
+			
+			&-right {
+				box-shadow: 8px 8px #0f0e17;
+			}
+
+			&-left {
+				box-shadow: -8px 8px #0f0e17;
+				position: relative;
+			}
+
+			img {
+				width: 29.75rem;
+			}
+
+			.feature-content-1 {
+				margin: 1.5rem;
+			}
+
+			.feature-content-2 {
+				margin-inline:17px;
+				margin-bottom: -5px;
+			}
+		}
+	}
 
 	@keyframes slide {
 		0% {
@@ -173,6 +345,37 @@
 		overflow: overlay;
 	}
 
+    .center {
+        margin-top: 5rem;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 3.5rem;
+
+        .sparkle {
+            width: 2rem;
+            height: 2rem;
+            margin: auto;
+        }
+
+        h2 {
+            font-family: "SofiaProSemiBold";
+            font-size: 2rem;
+            font-weight: 100;
+			margin-top: 1rem;
+        }
+    }
+
+
+	#line {
+		border-bottom: 2px solid #0f0e17;
+	}
+
+	main{
+		max-width: 948px;
+		margin: 32px auto;
+	}
+
+	/* -------------------------------- SCROLLBAR ------------------------------- */
 	/* Width*/
 	:root::-webkit-scrollbar {
 		width: 5px;
@@ -191,15 +394,6 @@
 	/* Handle on hover */
 	:root::-webkit-scrollbar-thumb:hover {
 		background: #302e2b;
-	}
-
-	#line {
-		border-bottom: 2px solid #0f0e17;
-	}
-
-	main{
-		max-width: 948px;
-		margin: 32px auto;
 	}
 
 	@font-face {

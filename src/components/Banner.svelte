@@ -80,8 +80,6 @@
                 margin-right: 0.75rem;
                 margin-bottom: 4px;
             }
-
-
         }
 
     }

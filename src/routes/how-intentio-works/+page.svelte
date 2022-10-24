@@ -131,21 +131,22 @@
         text-align: center;
         align-items: center;
         margin-bottom: 3rem;
+
+        .shapes {
+            width: 2rem;
+            height: 2rem;
+            margin: auto;
+        }
+
+        h1{
+            font-family: "SofiaProSemiBold";
+            font-size: 2rem;
+            font-weight: 100;
+        }
     }
 
-    .shapes {
-        width: 2rem;
-        height: 2rem;
-        margin: auto;
-    }
 
-    h1{
-        font-family: "SofiaProSemiBold";
-        font-size: 2rem;
-        font-weight: 100;
-    }
 
-   
 
     a {
         color: #0f0e17;

@@ -5,21 +5,21 @@
     <div class="nav">
         <a href="#">
             <div class="inline-icon-text">
-                <img src="./icons/sparkles.svg" alt="sparkles icon">
+                <img src="./icons/sparkles-filled.svg" alt="sparkles icon">
                 <h4>Features</h4>
             </div>
         </a>
 
         <a href="/how-intentio-works">
             <div class="inline-icon-text">
-                <img src="./icons/shapes.svg" alt="shapes icon">
+                <img src="./icons/shapes-filled.svg" alt="shapes icon">
                 <h4>How Intentio Works?</h4>
             </div>
         </a>
 
         <a href="/intentio-questions">
             <div class="inline-icon-text">
-                <img src="./icons/puzzle.svg" alt="puzzle icon">
+                <img src="./icons/puzzle-filled.svg" alt="puzzle icon">
                 <h4>Intent Questions</h4>
             </div>
         </a>
@@ -48,16 +48,17 @@
         display: flex;
         gap: 24px;
         margin-top: -8px;
+
+        img {
+            max-width: 20px;
+        }
     }
 
-    img {
-        max-width: 20px;
-    }
 
     h4 {
         font-size: 17px;
-        font-family: 'Sofia Pro';
-        font-weight: 500;
+        font-family: 'SofiaProSemiBold';
+        font-weight: normal;
         padding-top: 4px;
     }
 
