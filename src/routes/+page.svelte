@@ -171,9 +171,6 @@
 		margin: 0;
 		padding: 0;
 		overflow: overlay;
-		::-webkit-scrollbar {
-		width: 40px;
-		}
 	}
 
 	/* Width*/
