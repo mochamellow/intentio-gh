@@ -87,7 +87,7 @@
 
 		.div1, .div2 {
 			display: flex;
-			animation: slide 40s linear infinite;
+			animation: slide 80s linear infinite;
 		}
 
 		h3 {
