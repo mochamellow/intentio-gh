@@ -4,6 +4,8 @@
 	import Banner from '../components/Banner.svelte';
 	import Footer from '../components/Footer.svelte';
 
+	let containerWidth;
+
 </script>
 
 <Header />
@@ -26,12 +28,22 @@
 
 </main>
 
-<div class="tagliner">
-	<div class="marquee">
-		<h3>Be aware.</h3> <h3>Be accountable.</h3> <h3>Be intentional.</h3> <h3>Be aware.</h3> <h3>Be accountable.</h3> <h3>Be intentional.</h3> <h3>Be aware.</h3> <h3>Be accountable.</h3> <h3>Be intentional.</h3> <h3>Be aware.</h3> <h3>Be accountable.</h3> <h3>Be intentional.</h3> <h3>Be aware.</h3> <h3>Be accountable.</h3> <h3>Be intentional.</h3> <h3>Be aware.</h3> <h3>Be accountable.</h3> <h3>Be intentional.</h3> <h3>Be aware.</h3> <h3>Be accountable.</h3> <h3>Be intentional.</h3> <h3>Be aware.</h3> <h3>Be accountable.</h3> <h3>Be intentional.</h3>
+<div class="container" bind:clientWidth={containerWidth}>
+	<div class="div1">
+		<h3>Be aware.</h3>
+		<h3>Be accountable.</h3>
+		<h3>Be intentional.</h3>
+		<h3>Be aware.</h3>
+		<h3>Be accountable.</h3>
+		<h3>Be intentional.</h3>
 	</div>
-	<div class="marquee">
-		<h3>Be aware.</h3> <h3>Be accountable.</h3> <h3>Be intentional.</h3> <h3>Be aware.</h3> <h3>Be accountable.</h3> <h3>Be intentional.</h3> <h3>Be aware.</h3> <h3>Be accountable.</h3> <h3>Be intentional.</h3> <h3>Be aware.</h3> <h3>Be accountable.</h3> <h3>Be intentional.</h3> <h3>Be aware.</h3> <h3>Be accountable.</h3> <h3>Be intentional.</h3> <h3>Be aware.</h3> <h3>Be accountable.</h3> <h3>Be intentional.</h3> <h3>Be aware.</h3> <h3>Be accountable.</h3> <h3>Be intentional.</h3> <h3>Be aware.</h3> <h3>Be accountable.</h3> <h3>Be intentional.</h3>
+	<div class="div2">
+		<h3>Be aware.</h3>
+		<h3>Be accountable.</h3>
+		<h3>Be intentional.</h3>
+		<h3>Be aware.</h3>
+		<h3>Be accountable.</h3>
+		<h3>Be intentional.</h3>
 	</div>
 </div>
 
@@ -44,7 +56,7 @@
 
 <style lang="scss">
 
-	@keyframes marquee {
+	@keyframes slide {
 		0% {
 			transform: translate(-100%, 0);
 		}
@@ -53,18 +65,17 @@
 		}
 	}
 
-	.tagliner {
+	.container {
+		overflow: hidden;
 		display: flex;
 		align-items: baseline;
 		background: #0f0e17;
-		gap: 2.5rem;
-		overflow: hidden;
+		margin: 0 auto;
+		white-space: nowrap;
 
-		.marquee {
+		.div1, .div2 {
 			display: flex;
-			gap: 2.5rem;
-			white-space: nowrap;
-			animation: marquee 140s linear infinite;
+			animation: slide 40s linear infinite;
 		}
 
 		h3 {
@@ -72,6 +83,7 @@
 			font-weight: normal;
 			color: #F9F4EF;
 			font-size: 1.5rem;
+			margin-left: 2.5rem;
 		}
 	}
 
