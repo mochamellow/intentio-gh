@@ -28,7 +28,7 @@
 
 </main>
 
-<div class="container" bind:clientWidth={containerWidth}>
+<div class="container" id="feature-anchor" bind:clientWidth={containerWidth}>
 	<div class="div1">
 		<h3>Be aware.</h3>
 		<h3>Be accountable.</h3>

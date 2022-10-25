@@ -3,7 +3,7 @@
 
     <!-- TODO- Links to Other Pages -->
     <div class="nav">
-        <a href="#">
+        <a href="/#feature-anchor">
             <div class="inline-icon-text">
                 <img src="./icons/sparkles-filled.svg" alt="sparkles icon">
                 <h4>Features</h4>
@@ -51,6 +51,10 @@
 
         img {
             max-width: 20px;
+        }
+
+        a {
+            scroll-behavior: smooth;
         }
     }
 
