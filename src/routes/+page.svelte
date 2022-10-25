@@ -106,6 +106,56 @@
 		</div>
 	</div>
 
+	<div class="feature-section feature-gap-1">
+		<div class="feature-content" style="width: 408px">
+			<div class="icons">
+				<img src="./icons/chatbox-ellipses.svg" alt="chatbox ellipses icon">
+			</div>
+			<div class="text-container">
+				<h3 style="width: 17rem;">Get Notified & Stay Accountable</h3>
+				<p style="width: 20rem; margin-bottom: 0.5rem;">You’ll get notified of the time you have left according to how long you set for yourself on a blocked site.</p>
+				<p style="width: 20rem">This helps you to be mindful and less likely to be irritated when you’re blocked from using the site when the time’s up.</p>
+			</div>
+		</div>
+		<div class="img-container img-container-right">
+			<!-- svelte-ignore a11y-img-redundant-alt -->
+			<img class="feature-content-3" src="./img/feature-content3.png" alt="feature image 1">
+		</div>
+	</div>
+
+	<div class="feature-section feature-gap-2">
+		<div class="img-container img-container-left">
+			<!-- svelte-ignore a11y-img-redundant-alt -->
+			<img class="feature-content-4" src="./img/feature-content4.png" alt="feature image 4">
+		</div>
+		<div class="feature-content" style="width: 408px">
+			<div class="icons">
+				<img src="./icons/stopwatch.svg" alt="stopwatch icon">
+			</div>
+			<div class="text-container">
+				<h3 style="width: 17rem;">Auto Focus Mode</h3>
+				<p style="width: 20rem; margin-bottom: 0.5rem;">Start the Pomodoro timer whenever you visit your focus site.</p>
+				<p>Never forget about starting a Pomodoro session anymore.</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="feature-section feature-gap-1">
+		<div class="feature-content" style="width: 408px">
+			<div class="icons">
+				<img src="./icons/eye-black.svg" alt="chatbox ellipses icon">
+			</div>
+			<div class="text-container">
+				<h3 style="width: 18.43rem;">See Your Intentions at a Glance</h3>
+				<p style="width: 21.875rem;">Reveal your browsing intentions, the sites you visited, and the amount of time you spent there.<p>
+			</div>
+		</div>
+		<div class="img-container img-container-right">
+			<!-- svelte-ignore a11y-img-redundant-alt -->
+			<img class="feature-content-5" src="./img/feature-content5.png" alt="feature image 1">
+		</div>
+	</div>
+
 </main>
 
 <Banner />
@@ -225,17 +275,32 @@
 				position: relative;
 			}
 
-			img {
-				width: 29.75rem;
-			}
-
 			.feature-content-1 {
+				width: 29.75rem;
 				margin: 1.5rem;
 			}
 
 			.feature-content-2 {
 				margin-inline:17px;
 				margin-bottom: -5px;
+			}
+
+			.feature-content-3 {
+				width: 23.8rem;
+				margin: 1.5rem 4.5rem;
+			}
+
+			.feature-content-4 {
+				width: 30.11rem;
+				margin-top: 3.25rem;
+				margin-bottom: 2.375rem;
+				margin-right: 0.82rem;
+				margin-left: 1.68rem;
+			}
+
+			.feature-content-5 {
+				width: 28.9rem;
+				margin: 2.78rem 1.84rem;
 			}
 		}
 	}
