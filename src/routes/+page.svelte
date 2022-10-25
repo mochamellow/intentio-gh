@@ -77,6 +77,8 @@
 			</div>
 		</div>
 		<div class="img-container img-container-right">
+			<img class="bg-1-topright" src="./img/feature-content-bg-1-topright.svg" alt="background lines">
+			<img class="bg-1-bottomleft" src="./img/feature-content-bg-1-bottomleft.svg" alt="background lines">
 			<!-- svelte-ignore a11y-img-redundant-alt -->
 			<img class="feature-content-1" src="./img/feature-content1.png" alt="feature image 1">
 		</div>
@@ -85,6 +87,8 @@
 	<div class="feature-section feature-gap-2">
 		<div class="img-container img-container-left">
 			<a href="/intentio-questions"><button id="question-button"><img class="logo-chrome" src="./icons/eye.svg" alt="eye icon" >View Questions</button></a>
+			<img class="bg-2-topleft" src="./img/feature-content-bg-2-topleft.svg" alt="background lines">
+			<img class="bg-2-bottomright" src="./img/feature-content-bg-2-bottomright.svg" alt="background lines">
 			<!-- svelte-ignore a11y-img-redundant-alt -->
 			<img class="feature-content-2" src="./img/feature-content2.png" alt="feature image 1">
 		</div>
@@ -118,6 +122,8 @@
 			</div>
 		</div>
 		<div class="img-container img-container-right">
+			<img class="bg-3-bottomleft" src="./img/feature-content-bg-3-bottomleft.svg" alt="background lines">
+			<img class="bg-3-topright" src="./img/feature-content-bg-3-topright.svg" alt="background lines">
 			<!-- svelte-ignore a11y-img-redundant-alt -->
 			<img class="feature-content-3" src="./img/feature-content3.png" alt="feature image 1">
 		</div>
@@ -125,6 +131,8 @@
 
 	<div class="feature-section feature-gap-2">
 		<div class="img-container img-container-left">
+			<img class="bg-1-topright" src="./img/feature-content-bg-1-topright.svg" alt="background lines">
+			<img class="bg-1-bottomleft" src="./img/feature-content-bg-1-bottomleft.svg" alt="background lines">
 			<!-- svelte-ignore a11y-img-redundant-alt -->
 			<img class="feature-content-4" src="./img/feature-content4.png" alt="feature image 4">
 		</div>
@@ -151,6 +159,8 @@
 			</div>
 		</div>
 		<div class="img-container img-container-right">
+			<img class="bg-1-topright" src="./img/feature-content-bg-1-topright.svg" alt="background lines">
+			<img class="bg-1-bottomleft" src="./img/feature-content-bg-1-bottomleft.svg" alt="background lines">
 			<!-- svelte-ignore a11y-img-redundant-alt -->
 			<img class="feature-content-5" src="./img/feature-content5.png" alt="feature image 1">
 		</div>
@@ -268,6 +278,7 @@
 			
 			&-right {
 				box-shadow: 8px 8px #0f0e17;
+				position: relative;
 			}
 
 			&-left {
@@ -278,6 +289,25 @@
 			.feature-content-1 {
 				width: 29.75rem;
 				margin: 1.5rem;
+				z-index: 3;
+				position: relative;
+			}
+
+			.bg-1 {
+			
+				&-topright {
+					right: 0;
+					top: 0;
+					position: absolute;
+					z-index: 0;
+				}
+
+				&-bottomleft {
+					left: 0;
+					bottom: 0;
+					position: absolute;
+					z-index: 0;
+				}
 			}
 
 			.feature-content-2 {
@@ -285,9 +315,45 @@
 				margin-bottom: -5px;
 			}
 
+			.bg-2 {
+			
+				&-topleft {
+					left: 0;
+					top: 0;
+					position: absolute;
+					z-index: 0;
+				}
+
+				&-bottomright {
+					bottom: 0;
+					right: 0;
+					position: absolute;
+					z-index: 0;
+				}
+			}
+
 			.feature-content-3 {
 				width: 23.8rem;
 				margin: 1.5rem 4.5rem;
+				position: relative;
+				z-index: 2;
+			}
+
+			.bg-3 {
+			
+				&-bottomleft {
+					left: 0;
+					bottom: 0;
+					position: absolute;
+					z-index: 0;
+				}
+
+				&-topright {
+					top: 0;
+					right: 0;
+					position: absolute;
+					z-index: 0;
+				}
 			}
 
 			.feature-content-4 {
@@ -296,11 +362,15 @@
 				margin-bottom: 2.375rem;
 				margin-right: 0.82rem;
 				margin-left: 1.68rem;
+				position: relative;
+				z-index: 3;
 			}
 
 			.feature-content-5 {
 				width: 28.9rem;
 				margin: 2.78rem 1.84rem;
+				position: relative;
+				z-index: 3;
 			}
 		}
 	}
