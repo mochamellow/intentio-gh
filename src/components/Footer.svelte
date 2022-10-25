@@ -46,7 +46,7 @@
         font-size: 0.9rem;
         font-family: 'Sofia Pro';
         font-weight: 100;
-        color: #6A6A6A;
+        color: #8A826F;
         display: inline-block;
         margin-top: 8px;
     }

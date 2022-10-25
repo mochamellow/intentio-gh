@@ -84,7 +84,7 @@
 
 	<div class="feature-section feature-gap-2">
 		<div class="img-container img-container-left">
-			<a href="/intentio-questions"><button id="question-button"><img class="logo-chrome" src="./icons/logo-chrome.svg" alt="chrome logo" >View Questions</button></a>
+			<a href="/intentio-questions"><button id="question-button"><img class="logo-chrome" src="./icons/eye.svg" alt="eye icon" >View Questions</button></a>
 			<!-- svelte-ignore a11y-img-redundant-alt -->
 			<img class="feature-content-2" src="./img/feature-content2.png" alt="feature image 1">
 		</div>
@@ -317,7 +317,7 @@
             font-family: "Bespoke Slab";
             font-weight: bold;
             padding-top: 1rem;
-            padding-bottom: 0.8rem;
+            padding-bottom: 0.85rem;
             padding-left: 1.25rem;
             padding-right: 1.4rem;
             margin-top: 0.4rem;
