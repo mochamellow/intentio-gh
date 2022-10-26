@@ -16,9 +16,9 @@
         &nbsp;
         <!-- TODO- Link to Your Socials -->
         <div class="socials">
-            <a href="https://google.com" target="_blank"><img src="./icons/logo-linkedin.svg" alt="linkedin logo"></a>
-            <a href="https://google.com" target="_blank"><img src="./icons/logo-behance.svg" alt="behance logo"></a>
-            <a href="https://google.com" target="_blank"><img src="./icons/mail.svg" alt="mail icon"></a>
+            <img src="./icons/logo-linkedin.svg" alt="linkedin logo">
+            <img src="./icons/logo-behance.svg" alt="behance logo">
+            <img src="./icons/mail.svg" alt="mail icon">
         </div>
     </div> 
 </footer>
