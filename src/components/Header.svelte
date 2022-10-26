@@ -29,7 +29,7 @@
 
     header {
         position: fixed;
-        z-index: 99999;
+        z-index: 10;
         top: 0;
         width: 100%;
         border-bottom: 2px solid #0f0e17;
