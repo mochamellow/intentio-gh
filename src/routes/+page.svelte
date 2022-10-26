@@ -8,10 +8,6 @@
 
 </script>
 
-<svelte:head>
-	<link href="https://api.fontshare.com/v2/css?f[]=satoshi@700&display=swap" rel="stylesheet">
-</svelte:head>
-
 <Header/>
 
 <div class="spacer"></div>
@@ -180,49 +176,73 @@
  </div>
 
 <style lang="scss">
-
-	@font-face {
-        font-family: 'Gelasio';
-        font-style: normal;
-        font-weight: 400;
-        src: local('Gelasio Regular'), local('Gelasio-Regular'), url(https://fonts.gstatic.com/s/gelasio/v1/cIf9MaFfvUQxTTqS9C6hYQ.woff2) format('woff2');
-        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-    }
 	
 	@font-face {
-		font-family: 'Sofia Pro';
-        font-style: normal;
-		font-weight: 100;
-        src:local('Sofia Pro'), url(./fonts/SofiaProRegular.otf) format('otf');
-    }
-	
-	@font-face {
-		font-family: 'Sofia Pro';
-        font-style: normal;
-		font-weight: 500;
-        src:local('Sofia Pro'), url(./fonts/SofiaProMedium.otf) format('otf');
-    }
-
-	@font-face {
-		font-family: 'SofiaProSemiBold';
-		font-style: normal;
+		font-family: 'sofia_probold';
+		src: url('./fonts/sofia_pro_bold_az-webfont.woff2') format('woff2'),
+			url('./fonts/sofia_pro_bold_az-webfont.woff') format('woff');
 		font-weight: normal;
-		src:local('SofiaProSemiBold'), url(./fonts/SofiaProSemiBold.otf) format('otf');
+		font-style: normal;
 	}
 
 	@font-face {
-		font-family: 'Sofia Pro', sans-serif;
-        font-style: normal;
-		font-weight: bold;
-        src:local('Sofia Pro'), url(./fonts/SofiaProBold.otf) format('otf');
-    }
+		font-family: 'sofia_promedium';
+		src: url('./fonts/sofia_pro_medium_az-webfont.woff2') format('woff2'),
+			url('./fonts/sofia_pro_medium_az-webfont.woff') format('woff');
+		font-weight: normal;
+		font-style: normal;
+	}
 
 	@font-face {
-        font-family: 'Bespoke Slab';
-        font-style: normal;
-		font-weight: bold;
-        src:local('Bespoke Slab'), url(./fonts/BespokeSlab-Bold.otf) format('otf');
-    }
+		font-family: 'sofia_proregular';
+		src: url('./fonts/sofia_pro_regular_az-webfont.woff2') format('woff2'),
+			url('./fonts/sofia_pro_regular_az-webfont.woff') format('woff');
+		font-weight: normal;
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: 'sofia_prosemibold';
+		src: url('./fonts/sofia_pro_semi_bold_az-webfont.woff2') format('woff2'),
+			url('./fonts/sofia_pro_semi_bold_az-webfont.woff') format('woff');
+		font-weight: normal;
+		font-style: normal;
+	}
+	
+	// @font-face {
+	// 	font-family: 'Sofia Pro';
+    //     font-style: normal;
+	// 	font-weight: 100;
+    //     src:local('Sofia Pro'), url(./fonts/SofiaProRegular.otf) format('otf');
+    // }
+	
+	// @font-face {
+	// 	font-family: 'Sofia Pro';
+    //     font-style: normal;
+	// 	font-weight: 500;
+    //     src:local('Sofia Pro'), url(./fonts/SofiaProMedium.otf) format('otf');
+    // }
+
+	// @font-face {
+	// 	font-family: 'SofiaProSemiBold';
+	// 	font-style: normal;
+	// 	font-weight: normal;
+	// 	src:local('SofiaProSemiBold'), url(./fonts/SofiaProSemiBold.otf) format('otf');
+	// }
+
+	// @font-face {
+	// 	font-family: 'Sofia Pro', sans-serif;
+    //     font-style: normal;
+	// 	font-weight: bold;
+    //     src:local('Sofia Pro'), url(./fonts/SofiaProBold.otf) format('otf');
+    // }
+
+	// @font-face {
+    //     font-family: 'Bespoke Slab';
+    //     font-style: normal;
+	// 	font-weight: bold;
+    //     src:local('Bespoke Slab'), url(./fonts/BespokeSlab-Bold.otf) format('otf');
+    // }
 
 	#question-button {
 		position: absolute;
@@ -304,7 +324,7 @@
 			.text-container {
 
 				h3 {
-					font-family: "SofiaProSemiBold";
+					font-family: "sofia_prosemibold";
 					font-weight: normal;
 					font-size: 2rem;
 					line-height: 2.25rem;
@@ -314,7 +334,7 @@
 
 				p {
 					font-size: 1rem;
-					font-family: "Sofia Pro";
+					font-family: "sofia_proregular";
 					font-weight: normal;
 					line-height: 1.5rem;
 					margin:0;
@@ -449,7 +469,7 @@
 		}
 
 		h3 {
-			font-family: "Sofia Pro";
+			font-family: "sofia_proregular";
 			font-weight: normal;
 			color: #F9F4EF;
 			font-size: 1.5rem;
@@ -472,8 +492,7 @@
 		max-width: 32rem;
 		
 		h1 {
-			font-family: "Satoshi", sans-serif;
-			font-weight: bold;
+			font-family: "sofia_probold", sans-serif;
 			font-size: 3.5rem;
 			margin-block: 0.1rem;
 		}
@@ -491,7 +510,7 @@
 
 		p {
 			max-width: 31rem;
-			font-family: "Sofia Pro";
+			font-family: "sofia_proregular";
 			font-weight: normal;
 			line-height: 30px;
 			font-size: 1.25rem;
@@ -544,9 +563,9 @@
         }
 
         h2 {
-            font-family: "SofiaProSemiBold";
+            font-family: "sofia_prosemibold";
             font-size: 2rem;
-            font-weight: 100;
+            font-weight: normal;
 			margin-top: 1rem;
         }
     }
