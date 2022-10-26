@@ -16,8 +16,7 @@
 <Modal title="Bottom-up Processing" message="Bottom-up processing is the process of ‘sensation’, whereby the input of sensory information from the external environment is received by our sensory receptors." showModal={showModal} on:click={toggleModal}/>
 <Header />
 
-
-<div id="line"></div>
+<div class="spacer"></div>
 <main>
 	
     <div class="center">
@@ -206,8 +205,8 @@
 		padding: 0;
 	}
 
-	#line {
-		border-bottom: 2px solid #0f0e17;
+	.spacer {
+		height: 6.305rem;
 	}
 
 	main{

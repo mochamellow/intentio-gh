@@ -8,198 +8,203 @@
 
 </script>
 
-<Header />
-<div id="line"></div>
-<main>
-	<section class="first-section">
-		<div class="main-left">
-			<h1>Stop Browsing</h1>
-			<div class="line-icon-text">
-				<img class="trail-sign" src="./icons/trail-sign.svg" alt="trail sign icon">
-				<h1>Mindlessly &</h1>
-			</div>
-			<h1>Become Intentional</h1>
-			<p>Uncover your true intentions on internet consumption and shift your actions mindfully towards the things you actually want to do.</p>
-			<button><img class="logo-chrome" src="./icons/logo-chrome.svg" alt="chrome logo" >Add to Chrome</button>
-		</div>
-		<img class="homepage-ui" src="./img/homepage-ui.png" alt="Homepage Design">
+<Header/>
 
-	</section>
+<div class="spacer"></div>
 
-</main>
-
-<div class="container" id="feature-anchor" bind:clientWidth={containerWidth}>
-	<div class="div1">
-		<h3>Be aware.</h3>
-		<h3>Be accountable.</h3>
-		<h3>Be intentional.</h3>
-		<h3>Be aware.</h3>
-		<h3>Be accountable.</h3>
-		<h3>Be intentional.</h3>
-		<h3>Be aware.</h3>
-		<h3>Be accountable.</h3>
-		<h3>Be intentional.</h3>
-		<h3>Be aware.</h3>
-		<h3>Be accountable.</h3>
-		<h3>Be intentional.</h3>
-	</div>
-	<div class="div2">
-		<h3>Be aware.</h3>
-		<h3>Be accountable.</h3>
-		<h3>Be intentional.</h3>
-		<h3>Be aware.</h3>
-		<h3>Be accountable.</h3>
-		<h3>Be intentional.</h3>
-		<h3>Be aware.</h3>
-		<h3>Be accountable.</h3>
-		<h3>Be intentional.</h3>
-		<h3>Be aware.</h3>
-		<h3>Be accountable.</h3>
-		<h3>Be intentional.</h3>
-	</div>
-</div>
-
-<main>
-    <div class="center">
-        <img class="sparkle" src="./icons/sparkles.svg" alt="shapes icon">
-        <h2>Features</h2>
-    </div>
-
-	<div class="feature-section feature-gap-1">
-		<div class="feature-content" style="width: 408px">
-			<div class="icons">
-				<img src="./icons/book.svg" alt="book icon">
-				<img src="./icons/happy.svg" alt="smiley icon">
-			</div>
-			<div class="text-container">
-				<h3 style="width: 18.5rem;">Create Custom Block & Focus Sites</h3>
-				<p style="width: 21.6rem;">Block the time-wasting sites that distract you and add the sites you use to work towards your goals into focus sites.</p>
-			</div>
-		</div>
-		<div class="img-container img-container-right">
-			<img class="bg-1-topright" src="./img/feature-content-bg-1-topright.svg" alt="background lines">
-			<img class="bg-1-bottomleft" src="./img/feature-content-bg-1-bottomleft.svg" alt="background lines">
-			<!-- svelte-ignore a11y-img-redundant-alt -->
-			<img class="feature-content-1" src="./img/feature-content1.png" alt="feature image 1">
-		</div>
-	</div>
-
-	<div class="feature-section feature-gap-2">
-		<div class="img-container img-container-left">
-			<a href="/intentio-questions"><button id="question-button"><img class="logo-chrome" src="./icons/eye.svg" alt="eye icon" >View Questions</button></a>
-			<img class="bg-2-topleft" src="./img/feature-content-bg-2-topleft.svg" alt="background lines">
-			<img class="bg-2-bottomright" src="./img/feature-content-bg-2-bottomright.svg" alt="background lines">
-			<!-- svelte-ignore a11y-img-redundant-alt -->
-			<img class="feature-content-2" src="./img/feature-content2.png" alt="feature image 1">
-		</div>
-		<div class="feature-content" style="width: 408px">
-			<div class="icons">
-				<img src="./icons/accessibility.svg" alt="book icon">
-			</div>
-			<div class="text-container">
-				<div class="title-container">
-					<h3 id="text1" style="width: 18.5rem;">Shift From</h3>
-					<div class="one-liner-text-icon">
-						<h3 id="text2">Mindless</h3>
-						<img class="arrow-forward" src="./icons/arrow-forward.svg" alt="arrow forward icon">
-						<h3 id="text2">Mindfull</h3>
-					</div>
+ <div class="page-content">
+	<main>
+		<section class="first-section">
+			<div class="main-left">
+				<h1>Stop Browsing</h1>
+				<div class="line-icon-text">
+					<img class="trail-sign" src="./icons/trail-sign.svg" alt="trail sign icon">
+					<h1>Mindlessly &</h1>
 				</div>
-				<p style="width: 21.6rem;">When you visit a blocked site, you’ll get asked a short series of questions—designed to snap you out of the mindless state.</p>
+				<h1>Become Intentional</h1>
+				<p>Uncover your true intentions on internet consumption and shift your actions mindfully towards the things you actually want to do.</p>
+				<button><img class="logo-chrome" src="./icons/logo-chrome.svg" alt="chrome logo" >Add to Chrome</button>
 			</div>
+			<img class="homepage-ui" src="./img/homepage-ui.png" alt="Homepage Design">
+	
+		</section>
+	
+	</main>
+	
+	<div class="container" id="feature-anchor" bind:clientWidth={containerWidth}>
+		<div class="div1">
+			<h3>Be aware.</h3>
+			<h3>Be accountable.</h3>
+			<h3>Be intentional.</h3>
+			<h3>Be aware.</h3>
+			<h3>Be accountable.</h3>
+			<h3>Be intentional.</h3>
+			<h3>Be aware.</h3>
+			<h3>Be accountable.</h3>
+			<h3>Be intentional.</h3>
+			<h3>Be aware.</h3>
+			<h3>Be accountable.</h3>
+			<h3>Be intentional.</h3>
+		</div>
+		<div class="div2">
+			<h3>Be aware.</h3>
+			<h3>Be accountable.</h3>
+			<h3>Be intentional.</h3>
+			<h3>Be aware.</h3>
+			<h3>Be accountable.</h3>
+			<h3>Be intentional.</h3>
+			<h3>Be aware.</h3>
+			<h3>Be accountable.</h3>
+			<h3>Be intentional.</h3>
+			<h3>Be aware.</h3>
+			<h3>Be accountable.</h3>
+			<h3>Be intentional.</h3>
 		</div>
 	</div>
-
-	<div class="feature-section feature-gap-1">
-		<div class="feature-content" style="width: 408px">
-			<div class="icons">
-				<img src="./icons/chatbox-ellipses.svg" alt="chatbox ellipses icon">
+	
+	<main>
+	   <div class="center">
+		   <img class="sparkle" src="./icons/sparkles.svg" alt="shapes icon">
+		   <h2>Features</h2>
+	   </div>
+	
+		<div class="feature-section feature-gap-1">
+			<div class="feature-content" style="width: 408px">
+				<div class="icons">
+					<img src="./icons/book.svg" alt="book icon">
+					<img src="./icons/happy.svg" alt="smiley icon">
+				</div>
+				<div class="text-container">
+					<h3 style="width: 18.5rem;">Create Custom Block & Focus Sites</h3>
+					<p style="width: 21.6rem;">Block the time-wasting sites that distract you and add the sites you use to work towards your goals into focus sites.</p>
+				</div>
 			</div>
-			<div class="text-container">
-				<h3 style="width: 17rem;">Get Notified & Stay Accountable</h3>
-				<p style="width: 20rem; margin-bottom: 0.5rem;">You’ll get notified of the time you have left according to how long you set for yourself on a blocked site.</p>
-				<p style="width: 20rem">This helps you to be mindful and less likely to be irritated when you’re blocked from using the site when the time’s up.</p>
-			</div>
-		</div>
-		<div class="img-container img-container-right">
-			<img class="bg-3-bottomleft" src="./img/feature-content-bg-3-bottomleft.svg" alt="background lines">
-			<img class="bg-3-topright" src="./img/feature-content-bg-3-topright.svg" alt="background lines">
-			<!-- svelte-ignore a11y-img-redundant-alt -->
-			<img class="feature-content-3" src="./img/feature-content3.png" alt="feature image 1">
-		</div>
-	</div>
-
-	<div class="feature-section feature-gap-2">
-		<div class="img-container img-container-left">
-			<img class="bg-1-topright" src="./img/feature-content-bg-1-topright.svg" alt="background lines">
-			<img class="bg-1-bottomleft" src="./img/feature-content-bg-1-bottomleft.svg" alt="background lines">
-			<!-- svelte-ignore a11y-img-redundant-alt -->
-			<img class="feature-content-4" src="./img/feature-content4.png" alt="feature image 4">
-		</div>
-		<div class="feature-content" style="width: 408px">
-			<div class="icons">
-				<img src="./icons/stopwatch.svg" alt="stopwatch icon">
-			</div>
-			<div class="text-container">
-				<h3 style="width: 17rem;">Auto Focus Mode</h3>
-				<p style="width: 20rem; margin-bottom: 0.5rem;">Start the Pomodoro timer whenever you visit your focus site.</p>
-				<p>Never forget about starting a Pomodoro session anymore.</p>
+			<div class="img-container img-container-right">
+				<img class="bg-1-topright" src="./img/feature-content-bg-1-topright.svg" alt="background lines">
+				<img class="bg-1-bottomleft" src="./img/feature-content-bg-1-bottomleft.svg" alt="background lines">
+				<!-- svelte-ignore a11y-img-redundant-alt -->
+				<img class="feature-content-1" src="./img/feature-content1.png" alt="feature image 1">
 			</div>
 		</div>
-	</div>
-
-	<div class="feature-section feature-gap-1">
-		<div class="feature-content" style="width: 408px">
-			<div class="icons">
-				<img src="./icons/eye-black.svg" alt="chatbox ellipses icon">
+	
+		<div class="feature-section feature-gap-2">
+			<div class="img-container img-container-left">
+				<a href="/intentio-questions"><button id="question-button"><img class="logo-chrome" src="./icons/eye.svg" alt="eye icon" >View Questions</button></a>
+				<img class="bg-2-topleft" src="./img/feature-content-bg-2-topleft.svg" alt="background lines">
+				<img class="bg-2-bottomright" src="./img/feature-content-bg-2-bottomright.svg" alt="background lines">
+				<!-- svelte-ignore a11y-img-redundant-alt -->
+				<img class="feature-content-2" src="./img/feature-content2.png" alt="feature image 1">
 			</div>
-			<div class="text-container">
-				<h3 style="width: 18.43rem;">See Your Intentions at a Glance</h3>
-				<p style="width: 21.875rem;">Reveal your browsing intentions, the sites you visited, and the amount of time you spent there.<p>
+			<div class="feature-content" style="width: 408px">
+				<div class="icons">
+					<img src="./icons/accessibility.svg" alt="book icon">
+				</div>
+				<div class="text-container">
+					<div class="title-container">
+						<h3 id="text1" style="width: 18.5rem;">Shift From</h3>
+						<div class="one-liner-text-icon">
+							<h3 id="text2">Mindless</h3>
+							<img class="arrow-forward" src="./icons/arrow-forward.svg" alt="arrow forward icon">
+							<h3 id="text2">Mindfull</h3>
+						</div>
+					</div>
+					<p style="width: 21.6rem;">When you visit a blocked site, you’ll get asked a short series of questions—designed to snap you out of the mindless state.</p>
+				</div>
 			</div>
 		</div>
-		<div class="img-container img-container-right">
-			<img class="bg-1-topright" src="./img/feature-content-bg-1-topright.svg" alt="background lines">
-			<img class="bg-1-bottomleft" src="./img/feature-content-bg-1-bottomleft.svg" alt="background lines">
-			<!-- svelte-ignore a11y-img-redundant-alt -->
-			<img class="feature-content-5" src="./img/feature-content5.png" alt="feature image 1">
+	
+		<div class="feature-section feature-gap-1">
+			<div class="feature-content" style="width: 408px">
+				<div class="icons">
+					<img src="./icons/chatbox-ellipses.svg" alt="chatbox ellipses icon">
+				</div>
+				<div class="text-container">
+					<h3 style="width: 17rem;">Get Notified & Stay Accountable</h3>
+					<p style="width: 20rem; margin-bottom: 0.5rem;">You’ll get notified of the time you have left according to how long you set for yourself on a blocked site.</p>
+					<p style="width: 20rem">This helps you to be mindful and less likely to be irritated when you’re blocked from using the site when the time’s up.</p>
+				</div>
+			</div>
+			<div class="img-container img-container-right">
+				<img class="bg-3-bottomleft" src="./img/feature-content-bg-3-bottomleft.svg" alt="background lines">
+				<img class="bg-3-topright" src="./img/feature-content-bg-3-topright.svg" alt="background lines">
+				<!-- svelte-ignore a11y-img-redundant-alt -->
+				<img class="feature-content-3" src="./img/feature-content3.png" alt="feature image 1">
+			</div>
 		</div>
-	</div>
-
-</main>
-
-<Banner />
-<Footer />
+	
+		<div class="feature-section feature-gap-2">
+			<div class="img-container img-container-left">
+				<img class="bg-1-topright" src="./img/feature-content-bg-1-topright.svg" alt="background lines">
+				<img class="bg-1-bottomleft" src="./img/feature-content-bg-1-bottomleft.svg" alt="background lines">
+				<!-- svelte-ignore a11y-img-redundant-alt -->
+				<img class="feature-content-4" src="./img/feature-content4.png" alt="feature image 4">
+			</div>
+			<div class="feature-content" style="width: 408px">
+				<div class="icons">
+					<img src="./icons/stopwatch.svg" alt="stopwatch icon">
+				</div>
+				<div class="text-container">
+					<h3 style="width: 17rem;">Auto Focus Mode</h3>
+					<p style="width: 20rem; margin-bottom: 0.5rem;">Start the Pomodoro timer whenever you visit your focus site.</p>
+					<p>Never forget about starting a Pomodoro session anymore.</p>
+				</div>
+			</div>
+		</div>
+	
+		<div class="feature-section feature-gap-1">
+			<div class="feature-content" style="width: 408px">
+				<div class="icons">
+					<img src="./icons/eye-black.svg" alt="chatbox ellipses icon">
+				</div>
+				<div class="text-container">
+					<h3 style="width: 18.43rem;">See Your Intentions at a Glance</h3>
+					<p style="width: 21.875rem;">Reveal your browsing intentions, the sites you visited, and the amount of time you spent there.<p>
+				</div>
+			</div>
+			<div class="img-container img-container-right">
+				<img class="bg-1-topright" src="./img/feature-content-bg-1-topright.svg" alt="background lines">
+				<img class="bg-1-bottomleft" src="./img/feature-content-bg-1-bottomleft.svg" alt="background lines">
+				<!-- svelte-ignore a11y-img-redundant-alt -->
+				<img class="feature-content-5" src="./img/feature-content5.png" alt="feature image 1">
+			</div>
+		</div>
+	
+	</main>
+	
+	<Banner />
+	<Footer />
+ </div>
 
 <style lang="scss">
+	
 
-        #question-button {
-			position: absolute;
-			left: 50%;
-			top: 51%;
-			transform: translate(-50%, -50%);
-            font-family: "Bespoke Slab";
-            font-weight: bold;
-            padding-top: 1rem;
-            padding-bottom: 0.8rem;
-            padding-left: 1.25rem;
-            padding-right: 1.4rem;
-            background-color: #0f0e17;
-            border: 0px;
-            border-radius: 0.75rem;
-            cursor: pointer;
-            color: #F9F4EF;
-            font-size: 16px;
-			box-shadow: 0px 0px 24px rgba(15, 14, 23, 0.32);
+	#question-button {
+		position: absolute;
+		left: 50%;
+		top: 51%;
+		transform: translate(-50%, -50%);
+		font-family: "Bespoke Slab";
+		font-weight: bold;
+		padding-top: 1rem;
+		padding-bottom: 0.8rem;
+		padding-left: 1.25rem;
+		padding-right: 1.4rem;
+		background-color: #0f0e17;
+		border: 0px;
+		border-radius: 0.75rem;
+		cursor: pointer;
+		color: #F9F4EF;
+		font-size: 16px;
+		box-shadow: 0px 0px 24px rgba(15, 14, 23, 0.32);
 
-            .logo-chrome {
-                width: 1.5rem;
-                height: 1.5rem;
-                vertical-align: middle;
-                margin-right: 0.75rem;
-                margin-bottom: 4px;
-            }
-        }
+		.logo-chrome {
+			width: 1.5rem;
+			height: 1.5rem;
+			vertical-align: middle;
+			margin-right: 0.75rem;
+			margin-bottom: 4px;
+		}
+	}
 
 	.title-container {
 		#text1 {
@@ -500,15 +505,48 @@
         }
     }
 
-
-	#line {
-		border-bottom: 2px solid #0f0e17;
+	.spacer {
+		height: 6.305rem;
 	}
 
 	main{
 		max-width: 948px;
 		margin: 32px auto;
 	}
+
+	@font-face {
+        font-family: 'SofiaProSemiBold';
+        font-style: normal;
+        src:local('SofiaProSemiBold'), url(./fonts/SofiaProSemiBold.otf) format('otf');
+    }
+
+	@font-face {
+        font-family: 'Sofia Pro';
+        font-style: normal;
+		font-weight: normal;
+        src:local('Sofia Pro'), url(./fonts/SofiaProRegular.otf) format('otf');
+    }
+
+	@font-face {
+        font-family: 'Sofia Pro';
+        font-style: normal;
+		font-weight: 500;
+        src:local('Sofia Pro'), url(./fonts/SofiaProMedium.otf) format('otf');
+    }
+
+	@font-face {
+        font-family: 'Sofia Pro';
+        font-style: normal;
+		font-weight: 900;
+        src:local('Sofia Pro'), url(./fonts/SofiaProBold.otf) format('otf');
+    }
+
+	@font-face {
+        font-family: 'Bespoke Slab';
+        font-style: normal;
+		font-weight: 700;
+        src:local('Bespoke Slab'), url(./fonts/BespokeSlab-Bold.otf) format('otf');
+    }
 
 	/* -------------------------------- SCROLLBAR ------------------------------- */
 	/* Width*/
@@ -530,11 +568,5 @@
 	:root::-webkit-scrollbar-thumb:hover {
 		background: #302e2b;
 	}
-
-	@font-face {
-        font-family: 'SofiaProSemiBold';
-        font-style: normal;
-        src:local('SofiaProSemiBold'), url(./fonts/SofiaProSemiBold) format('otf');
-    }
 
 </style>

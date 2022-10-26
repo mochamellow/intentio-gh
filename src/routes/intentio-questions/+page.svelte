@@ -8,7 +8,9 @@
 </script>
 
 <Header />
-<div id="line"></div>
+
+<div class="spacer"></div>
+
 <main>
 	
     <div class="center">
@@ -76,8 +78,8 @@
 		padding: 0;
 	}
 
-	#line {
-		border-bottom: 2px solid #0f0e17;
+	.spacer {
+		height: 6.305rem;
 	}
 
 	main{
