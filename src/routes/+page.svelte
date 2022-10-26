@@ -183,69 +183,32 @@
 <style lang="scss">
 	
 	@font-face {
-		font-family: 'sofia_probold';
-		src: url('./fonts/sofia_pro_bold_az-webfont.woff2') format('woff2'),
-			url('./fonts/sofia_pro_bold_az-webfont.woff') format('woff'),
-			url("https://api.fontshare.com/v2/css?f[]=satoshi@900&display=swap"), local("sofia_probold");
-		font-weight: normal;
-		font-style: normal;
-	}
-
-	@font-face {
-		font-family: 'sofia_promedium';
-		src: url('./fonts/sofia_pro_medium_az-webfont.woff2') format('woff2'),
-			url('./fonts/sofia_pro_medium_az-webfont.woff') format('woff'),
-			url("https://api.fontshare.com/v2/css?f[]=satoshi@500&display=swap"), local("sofia_promedium");
-		font-weight: normal;
-		font-style: normal;
-	}
-
-	@font-face {
-		font-family: 'sofia_proregular';
-		src: url('./fonts/sofia_pro_regular_az-webfont.woff2') format('woff2'),
-			url('./fonts/sofia_pro_regular_az-webfont.woff') format('woff'),
-			url("https://api.fontshare.com/v2/css?f[]=satoshi@400&display=swap"), local("sofia_proregular");
-		font-weight: normal;
-		font-style: normal;
-	}
-
-	@font-face {
-		font-family: 'sofia_prosemibold';
-		src: url('./fonts/sofia_pro_semi_bold_az-webfont.woff2') format('woff2'),
-			url('./fonts/sofia_pro_semi_bold_az-webfont.woff') format('woff'),
-			url("https://api.fontshare.com/v2/css?f[]=satoshi@700&display=swap"),
-			local("sofia_prosemibold");
-		font-weight: normal;
-		font-style: normal;
-	}
+		font-family: 'Sofia Pro';
+        font-style: normal;
+		font-weight: 100;
+        src:local('Sofia Pro'), url(./fonts/SofiaProRegular.otf) format('otf');
+    }
 	
-	// @font-face {
-	// 	font-family: 'Sofia Pro';
-    //     font-style: normal;
-	// 	font-weight: 100;
-    //     src:local('Sofia Pro'), url(./fonts/SofiaProRegular.otf) format('otf');
-    // }
-	
-	// @font-face {
-	// 	font-family: 'Sofia Pro';
-    //     font-style: normal;
-	// 	font-weight: 500;
-    //     src:local('Sofia Pro'), url(./fonts/SofiaProMedium.otf) format('otf');
-    // }
+	@font-face {
+		font-family: 'Sofia Pro';
+        font-style: normal;
+		font-weight: 500;
+        src:local('Sofia Pro'), url(./fonts/SofiaProMedium.otf) format('otf');
+    }
 
-	// @font-face {
-	// 	font-family: 'SofiaProSemiBold';
-	// 	font-style: normal;
-	// 	font-weight: normal;
-	// 	src:local('SofiaProSemiBold'), url(./fonts/SofiaProSemiBold.otf) format('otf');
-	// }
+	@font-face {
+		font-family: 'SofiaProSemiBold';
+		font-style: normal;
+		font-weight: normal;
+		src:local('SofiaProSemiBold'), url(./fonts/SofiaProSemiBold.otf) format('otf');
+	}
 
-	// @font-face {
-	// 	font-family: 'Sofia Pro', sans-serif;
-    //     font-style: normal;
-	// 	font-weight: bold;
-    //     src:local('Sofia Pro'), url(./fonts/SofiaProBold.otf) format('otf');
-    // }
+	@font-face {
+		font-family: 'Sofia Pro', sans-serif;
+        font-style: normal;
+		font-weight: bold;
+        src:local('Sofia Pro'), url(./fonts/SofiaProBold.otf) format('otf');
+    }
 
 	#question-button {
 		position: absolute;
@@ -327,8 +290,8 @@
 			.text-container {
 
 				h3 {
-					font-family: "sofia_prosemibold", "Satoshi", sans-serif;
-					font-weight: 700;
+					font-family: "SofiaProSemiBold", "Satoshi", sans-serif;
+					font-weight: 500;
 					font-size: 2rem;
 					line-height: 2.25rem;
 					margin-top: 0;
@@ -337,7 +300,8 @@
 
 				p {
 					font-size: 1rem;
-					font-family: "sofia_proregular", "Satoshi", sans-serif;
+					// Sofia Pro Regular
+					font-family: "Sofia Pro", "Satoshi", sans-serif;
 					font-weight: 500;
 					line-height: 1.5rem;
 					margin:0;
@@ -472,7 +436,8 @@
 		}
 
 		h3 {
-			font-family: "sofia_proregular", "Satoshi", sans-serif;
+			// Sofia Pro Regular
+			font-family: "Sofia Pro", "Satoshi", sans-serif;
 			font-weight: 500;
 			color: #F9F4EF;
 			font-size: 1.5rem;
@@ -495,7 +460,8 @@
 		max-width: 33rem;
 		
 		h1 {
-			font-family: "sofia_probold", "Satoshi", sans-serif;
+			// Sofia Pro Bold
+			font-family: "Sofia Pro", "Satoshi", sans-serif;
 			font-weight: 900;
 			font-size: 3.5rem;
 			margin-block: 0.1rem;
@@ -514,7 +480,8 @@
 
 		p {
 			max-width: 31rem;
-			font-family: "sofia_proregular", "Satoshi", sans-serif;
+			// Sofia Pro Regular
+			font-family: "Sofia Pro", "Satoshi", sans-serif;
 			font-weight: 500;
 			line-height: 30px;
 			font-size: 1.25rem;
@@ -567,9 +534,9 @@
         }
 
         h2 {
-            font-family: "sofia_prosemibold", "Satoshi", sans-serif;
+            font-family: "SofiaProSemiBold", "Satoshi", sans-serif;
             font-size: 2rem;
-            font-weight: 600;
+            font-weight: 500;
 			margin-top: 1rem;
         }
     }

@@ -112,7 +112,7 @@
         position: absolute;
         max-width: 22%;
         right: 0;
-        top: 70%;
+        top: 60%;
     }
 
     .lines-3 {
@@ -136,7 +136,7 @@
         }
 
         h1{
-            font-family: "sofia_prosemibold", "Satoshi", sans-serif;
+            font-family: "SofiaProSemiBold", "Satoshi", sans-serif;
             font-size: 2rem;
             font-weight: 700;
         }
@@ -155,7 +155,7 @@
         gap: 8px;
 
         h3 {
-            font-family: "sofia_prosemibold", "Satoshi", sans-serif;
+            font-family: "SofiaProSemiBold", "Satoshi", sans-serif;
             font-weight: 900;
             font-size: 1.5rem;
             font-weight: normal;
@@ -171,7 +171,8 @@
     }
 
     p {
-        font-family: "sofia_proregular", "Satoshi", sans-serif;
+        // Sofia Pro Regular
+        font-family: "Sofia Pro", "Satoshi", sans-serif;
         font-weight: 500;
         line-height: 1.6rem;
         font-size: 1.125rem;
@@ -181,7 +182,8 @@
     }
 
     .small-title {
-        font-family: "sofia_probold", "Satoshi", sans-serif;
+        // SOfia Pro Bold
+        font-family: "Sofia Pro", "Satoshi", sans-serif;
         font-size: 1.25rem;
         font-weight: 900;
     }
@@ -190,7 +192,8 @@
         margin-bottom: 5rem;
 
         li {
-        font-family: "sofia_proregular", "Satoshi", sans-serif;
+            // Sofia Pro Regular
+        font-family: "Sofia Pro", "Satoshi", sans-serif;
         font-weight: 500;
         text-decoration: dotted;
         line-height: 1.68rem;

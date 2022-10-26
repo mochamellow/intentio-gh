@@ -58,7 +58,8 @@
             }
 
             h4 {
-                font-family: "sofia_probold", "Satoshi", sans-serif;
+                // Sofia Pro Bold
+                font-family: "Sofia Pro", "Satoshi", sans-serif;
                 font-weight: 700;
                 font-size: 1.8rem;
                 margin-right: auto;
@@ -74,8 +75,9 @@
 
 
         p {
+            // Sofia Pro Regular
+            font-family: "Sofia Pro", "Satoshi", sans-serif;
             font-size: 20px;
-            font-family: "sofia_proregular", "Satoshi", sans-serif;
             font-weight: 500;
             margin-block: 0;
             line-height: 2rem;

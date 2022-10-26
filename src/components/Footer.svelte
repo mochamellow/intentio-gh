@@ -42,8 +42,9 @@
     }
 
     .copyright {
+        // Sofia Pro Regular
+        font-family: 'Sofia Pro', "Satoshi", sans-serif;
         font-size: 0.9rem;
-        font-family: 'sofia_proregular', "Satoshi", sans-serif;
         font-weight: 500;
         color: #8A826F;
         display: inline-block;
@@ -53,8 +54,9 @@
     .right-footer {
 
         p {
+            // Sofia Pro Regular
+            font-family: 'Sofia Pro', "Satoshi", sans-serif;
             font-size: 0.9rem;
-            font-family: 'sofia_proregular', "Satoshi", sans-serif;
             font-weight: 500;
             margin:0;
         }
