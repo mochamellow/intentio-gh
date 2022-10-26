@@ -9,8 +9,9 @@
 </script>
 
 <svelte:head>
-	<link href="https://api.fontshare.com/v2/css?f[]=satoshi@900,700,500,400&display=swap" rel="stylesheet">
+	<link href="https://api.fontshare.com/v2/css?f[]=satoshi@900,700,500,400&f[]=bespoke-slab@700&display=swap" rel="stylesheet">
 </svelte:head>
+
 
 <Header/>
 
@@ -246,19 +247,12 @@
     //     src:local('Sofia Pro'), url(./fonts/SofiaProBold.otf) format('otf');
     // }
 
-	// @font-face {
-    //     font-family: 'Bespoke Slab';
-    //     font-style: normal;
-	// 	font-weight: bold;
-    //     src:local('Bespoke Slab'), url(./fonts/BespokeSlab-Bold.otf) format('otf');
-    // }
-
 	#question-button {
 		position: absolute;
 		left: 50%;
 		top: 51%;
 		transform: translate(-50%, -50%);
-		font-family: "Bespoke Slab";
+		font-family: "Bespoke Slab", sans-serif;
 		font-weight: bold;
 		padding-top: 1rem;
 		padding-bottom: 0.8rem;
@@ -529,7 +523,7 @@
 		}
 
         button {
-            font-family: "Bespoke Slab";
+            font-family: "Bespoke Slab", sans-serif;
             font-weight: bold;
             padding-top: 1rem;
             padding-bottom: 0.85rem;

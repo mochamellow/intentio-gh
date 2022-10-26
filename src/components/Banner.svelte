@@ -60,7 +60,7 @@
         }
 
         button {
-            font-family: "Bespoke Slab";
+            font-family: "Bespoke Slab", sans-serif;
             font-weight: bold;
             padding-top: 1rem;
             padding-bottom: 0.8rem;
