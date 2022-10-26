@@ -53,7 +53,8 @@
         }
 
         h1 {
-            font-family: "Sofia Pro";
+            font-family: "sofia_probold", "Satoshi", sans-serif;
+            font-weight: 900;
             font-size: 2rem;
             color: #F9F4EF;
         }

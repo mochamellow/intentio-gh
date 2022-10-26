@@ -68,8 +68,8 @@
 
     h4 {
         font-size: 17px;
-        font-family: 'SofiaProSemiBold';
-        font-weight: normal;
+        font-family: 'sofia_prosemibold', "Satoshi", sans-serif;
+        font-weight: 700;
         padding-top: 4px;
     }
 

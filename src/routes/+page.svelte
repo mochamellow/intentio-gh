@@ -334,7 +334,7 @@
 
 				h3 {
 					font-family: "sofia_prosemibold", "Satoshi", sans-serif;
-					font-weight: 600;
+					font-weight: 700;
 					font-size: 2rem;
 					line-height: 2.25rem;
 					margin-top: 0;
@@ -344,7 +344,7 @@
 				p {
 					font-size: 1rem;
 					font-family: "sofia_proregular", "Satoshi", sans-serif;
-					font-weight: 400;
+					font-weight: 500;
 					line-height: 1.5rem;
 					margin:0;
 				}
@@ -521,7 +521,7 @@
 		p {
 			max-width: 31rem;
 			font-family: "sofia_proregular", "Satoshi", sans-serif;
-			font-weight: 400;
+			font-weight: 500;
 			line-height: 30px;
 			font-size: 1.25rem;
 			margin-top: 1.5rem;

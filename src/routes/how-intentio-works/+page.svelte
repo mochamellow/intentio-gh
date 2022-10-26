@@ -168,6 +168,7 @@
 
     p {
         font-family: "sofia_proregular", "Satoshi", sans-serif;
+        font-weight: 500;
         line-height: 1.6rem;
         font-size: 1.125rem;
         line-break: normal;
@@ -186,7 +187,7 @@
 
         li {
         font-family: "sofia_proregular", "Satoshi", sans-serif;
-        font-weight: 400;
+        font-weight: 500;
         text-decoration: dotted;
         line-height: 1.68rem;
         font-size: 1.125rem;

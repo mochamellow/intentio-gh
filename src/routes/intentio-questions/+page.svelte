@@ -46,15 +46,16 @@
 
         h1 {
         font-family: "sofia_prosemibold", "Satoshi", sans-serif;
-        font-size: 32px;
         font-weight: 700;
+        font-size: 32px;
         }
     }
 
     p {
         max-width: 568px;
         font-size: 1.125rem;
-        font-family: "Sofia Pro", "sofia_proregular", "Satoshi", sans-serif;
+        font-family: "sofia_proregular", "Satoshi", sans-serif;
+        font-weight: 500;
         line-height: 1.6rem;
         text-align: center;
         margin-inline: auto;
