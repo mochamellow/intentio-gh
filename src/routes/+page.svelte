@@ -183,7 +183,7 @@
 <style lang="scss">
 	
 	@font-face {
-		font-family: 'sofia_probold', "Satoshi",sans-serif;
+		font-family: 'sofia_probold';
 		src: url('./fonts/sofia_pro_bold_az-webfont.woff2') format('woff2'),
 			url('./fonts/sofia_pro_bold_az-webfont.woff') format('woff'),
 			url("https://api.fontshare.com/v2/css?f[]=satoshi@900&display=swap"), local("sofia_probold");
@@ -192,7 +192,7 @@
 	}
 
 	@font-face {
-		font-family: 'sofia_promedium', "Satoshi",sans-serif;
+		font-family: 'sofia_promedium';
 		src: url('./fonts/sofia_pro_medium_az-webfont.woff2') format('woff2'),
 			url('./fonts/sofia_pro_medium_az-webfont.woff') format('woff'),
 			url("https://api.fontshare.com/v2/css?f[]=satoshi@500&display=swap"), local("sofia_promedium");
@@ -201,7 +201,7 @@
 	}
 
 	@font-face {
-		font-family: 'sofia_proregular', "Satoshi",sans-serif;
+		font-family: 'sofia_proregular';
 		src: url('./fonts/sofia_pro_regular_az-webfont.woff2') format('woff2'),
 			url('./fonts/sofia_pro_regular_az-webfont.woff') format('woff'),
 			url("https://api.fontshare.com/v2/css?f[]=satoshi@400&display=swap"), local("sofia_proregular");
@@ -210,7 +210,7 @@
 	}
 
 	@font-face {
-		font-family: 'sofia_prosemibold', "Satoshi", sans-serif;
+		font-family: 'sofia_prosemibold';
 		src: url('./fonts/sofia_pro_semi_bold_az-webfont.woff2') format('woff2'),
 			url('./fonts/sofia_pro_semi_bold_az-webfont.woff') format('woff'),
 			url("https://api.fontshare.com/v2/css?f[]=satoshi@700&display=swap"),
