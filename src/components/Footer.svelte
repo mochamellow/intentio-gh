@@ -14,12 +14,10 @@
             <p>Have suggestions, comments, or questions? Reach out!</p>
         </div>
         &nbsp;
-        <!-- TODO- Link to Your Socials -->
         <div class="socials">
-            <p>helo</p>
             <img src="./icons/logo-linkedin.svg" alt="linkedin logo">
             <img src="./icons/logo-behance.svg" alt="behance logo">
-            <img src="./icons/shapes.svg" alt="mail icon">
+            <img src="./icons/mail.svg" alt="mail icon">
         </div>
     </div> 
 </footer>
@@ -78,7 +76,6 @@
             gap: 16px;
             align-items: center;
             justify-content: end;
-            color: black;
 
             img {
                 width: 24px;

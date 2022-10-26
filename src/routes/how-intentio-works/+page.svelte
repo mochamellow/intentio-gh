@@ -13,6 +13,10 @@
     const toggleRef = () => {showRef = !showRef}
 </script>
 
+<svelte:head>
+	<link href="https://api.fontshare.com/v2/css?f[]=satoshi@900,700,500,400&f[]=bespoke-slab@700&display=swap" rel="stylesheet">
+</svelte:head>
+
 <Modal title="Bottom-up Processing" message="Bottom-up processing is the process of ‘sensation’, whereby the input of sensory information from the external environment is received by our sensory receptors." showModal={showModal} on:click={toggleModal}/>
 <Header />
 

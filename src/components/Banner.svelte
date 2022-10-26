@@ -1,3 +1,7 @@
+<svelte:head>
+	<link href="https://api.fontshare.com/v2/css?f[]=satoshi@900,700,500,400&f[]=bespoke-slab@700&display=swap" rel="stylesheet">
+</svelte:head>
+
 <section>
 
     <div class="vertical-center">
