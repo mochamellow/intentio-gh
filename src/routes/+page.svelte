@@ -178,33 +178,37 @@
 <style lang="scss">
 	
 	@font-face {
-		font-family: 'sofia_probold';
+		font-family: 'sofia_probold', sans-serif;
 		src: url('./fonts/sofia_pro_bold_az-webfont.woff2') format('woff2'),
-			url('./fonts/sofia_pro_bold_az-webfont.woff') format('woff');
+			url('./fonts/sofia_pro_bold_az-webfont.woff') format('woff'),
+			url("https://api.fontshare.com/v2/css?f[]=satoshi@900&display=swap");
 		font-weight: normal;
 		font-style: normal;
 	}
 
 	@font-face {
-		font-family: 'sofia_promedium';
+		font-family: 'sofia_promedium', sans-serif;
 		src: url('./fonts/sofia_pro_medium_az-webfont.woff2') format('woff2'),
-			url('./fonts/sofia_pro_medium_az-webfont.woff') format('woff');
+			url('./fonts/sofia_pro_medium_az-webfont.woff') format('woff'),
+			url("https://api.fontshare.com/v2/css?f[]=satoshi@500&display=swap");
 		font-weight: normal;
 		font-style: normal;
 	}
 
 	@font-face {
-		font-family: 'sofia_proregular';
+		font-family: 'sofia_proregular', sans-serif;
 		src: url('./fonts/sofia_pro_regular_az-webfont.woff2') format('woff2'),
-			url('./fonts/sofia_pro_regular_az-webfont.woff') format('woff');
+			url('./fonts/sofia_pro_regular_az-webfont.woff') format('woff'),
+			url("https://api.fontshare.com/v2/css?f[]=satoshi@400&display=swap");
 		font-weight: normal;
 		font-style: normal;
 	}
 
 	@font-face {
-		font-family: 'sofia_prosemibold';
+		font-family: 'sofia_prosemibold', sans-serif;
 		src: url('./fonts/sofia_pro_semi_bold_az-webfont.woff2') format('woff2'),
-			url('./fonts/sofia_pro_semi_bold_az-webfont.woff') format('woff');
+			url('./fonts/sofia_pro_semi_bold_az-webfont.woff') format('woff'),
+			url("https://api.fontshare.com/v2/css?f[]=satoshi@700&display=swap");
 		font-weight: normal;
 		font-style: normal;
 	}
