@@ -8,6 +8,10 @@
 
 </script>
 
+<svelte:head>
+	<link href="https://api.fontshare.com/v2/css?f[]=satoshi@700&display=swap" rel="stylesheet">
+</svelte:head>
+
 <Header/>
 
 <div class="spacer"></div>
@@ -468,7 +472,7 @@
 		max-width: 32rem;
 		
 		h1 {
-			font-family: "Gelasio";
+			font-family: "Satoshi", sans-serif;
 			font-weight: bold;
 			font-size: 3.5rem;
 			margin-block: 0.1rem;
