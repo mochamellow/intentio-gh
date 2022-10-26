@@ -44,8 +44,8 @@
 
     .copyright {
         font-size: 0.9rem;
-        font-family: 'Sofia Pro';
-        font-weight: 100;
+        font-family: 'sofia_proregular', "Satoshi", sans-serif;
+        font-weight: 500;
         color: #8A826F;
         display: inline-block;
         margin-top: 8px;
@@ -55,7 +55,8 @@
 
         p {
             font-size: 0.9rem;
-            font-family: 'Sofia Pro';
+            font-family: 'sofia_proregular', "Satoshi", sans-serif;
+            font-weight: 500;
             margin:0;
         }
 
@@ -76,6 +77,11 @@
             gap: 16px;
             align-items: center;
             justify-content: end;
+
+            img {
+                width: 1.5rem;
+                height: 1.5rem;
+            }
         }
     }
     
