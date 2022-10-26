@@ -513,38 +513,32 @@
 		max-width: 948px;
 		margin: 32px auto;
 	}
-
+	
 	@font-face {
-        font-family: 'SofiaProSemiBold';
+		font-family: 'Sofia Pro';
         font-style: normal;
-        src:local('SofiaProSemiBold'), url(./fonts/SofiaProSemiBold.otf) format('otf');
-    }
-
-	@font-face {
-        font-family: 'Sofia Pro';
-        font-style: normal;
-		font-weight: normal;
+		font-weight: 100;
         src:local('Sofia Pro'), url(./fonts/SofiaProRegular.otf) format('otf');
     }
-
+	
 	@font-face {
-        font-family: 'Sofia Pro';
+		font-family: 'Sofia Pro';
         font-style: normal;
 		font-weight: 500;
         src:local('Sofia Pro'), url(./fonts/SofiaProMedium.otf) format('otf');
     }
 
 	@font-face {
-        font-family: 'Sofia Pro';
-        font-style: normal;
-		font-weight: 900;
-        src:local('Sofia Pro'), url(./fonts/SofiaProBold.otf) format('otf');
-    }
+		font-family: 'SofiaProSemiBold';
+		font-style: normal;
+		font-weight: normal;
+		src:local('SofiaProSemiBold'), url(./fonts/SofiaProSemiBold.otf) format('otf');
+	}
 
 	@font-face {
         font-family: 'Bespoke Slab';
         font-style: normal;
-		font-weight: 700;
+		font-weight: bold;
         src:local('Bespoke Slab'), url(./fonts/BespokeSlab-Bold.otf) format('otf');
     }
 
