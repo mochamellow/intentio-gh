@@ -8,6 +8,10 @@
 
 </script>
 
+<svelte:head>
+	<link href="https://api.fontshare.com/v2/css?f[]=satoshi@900,700,500,400&display=swap" rel="stylesheet">
+</svelte:head>
+
 <Header/>
 
 <div class="spacer"></div>
@@ -178,37 +182,38 @@
 <style lang="scss">
 	
 	@font-face {
-		font-family: 'sofia_probold', sans-serif;
+		font-family: 'sofia_probold', "Satoshi",sans-serif;
 		src: url('./fonts/sofia_pro_bold_az-webfont.woff2') format('woff2'),
 			url('./fonts/sofia_pro_bold_az-webfont.woff') format('woff'),
-			url("https://api.fontshare.com/v2/css?f[]=satoshi@900&display=swap");
+			url("https://api.fontshare.com/v2/css?f[]=satoshi@900&display=swap"), local("sofia_probold");
 		font-weight: normal;
 		font-style: normal;
 	}
 
 	@font-face {
-		font-family: 'sofia_promedium', sans-serif;
+		font-family: 'sofia_promedium', "Satoshi",sans-serif;
 		src: url('./fonts/sofia_pro_medium_az-webfont.woff2') format('woff2'),
 			url('./fonts/sofia_pro_medium_az-webfont.woff') format('woff'),
-			url("https://api.fontshare.com/v2/css?f[]=satoshi@500&display=swap");
+			url("https://api.fontshare.com/v2/css?f[]=satoshi@500&display=swap"), local("sofia_promedium");
 		font-weight: normal;
 		font-style: normal;
 	}
 
 	@font-face {
-		font-family: 'sofia_proregular', sans-serif;
+		font-family: 'sofia_proregular', "Satoshi",sans-serif;
 		src: url('./fonts/sofia_pro_regular_az-webfont.woff2') format('woff2'),
 			url('./fonts/sofia_pro_regular_az-webfont.woff') format('woff'),
-			url("https://api.fontshare.com/v2/css?f[]=satoshi@400&display=swap");
+			url("https://api.fontshare.com/v2/css?f[]=satoshi@400&display=swap"), local("sofia_proregular");
 		font-weight: normal;
 		font-style: normal;
 	}
 
 	@font-face {
-		font-family: 'sofia_prosemibold', sans-serif;
+		font-family: 'sofia_prosemibold', "Satoshi", sans-serif;
 		src: url('./fonts/sofia_pro_semi_bold_az-webfont.woff2') format('woff2'),
 			url('./fonts/sofia_pro_semi_bold_az-webfont.woff') format('woff'),
-			url("https://api.fontshare.com/v2/css?f[]=satoshi@700&display=swap");
+			url("https://api.fontshare.com/v2/css?f[]=satoshi@700&display=swap"),
+			local("sofia_prosemibold");
 		font-weight: normal;
 		font-style: normal;
 	}
@@ -328,8 +333,8 @@
 			.text-container {
 
 				h3 {
-					font-family: "sofia_prosemibold";
-					font-weight: normal;
+					font-family: "sofia_prosemibold", "Satoshi", sans-serif;
+					font-weight: 600;
 					font-size: 2rem;
 					line-height: 2.25rem;
 					margin-top: 0;
@@ -338,8 +343,8 @@
 
 				p {
 					font-size: 1rem;
-					font-family: "sofia_proregular";
-					font-weight: normal;
+					font-family: "sofia_proregular", "Satoshi", sans-serif;
+					font-weight: 400;
 					line-height: 1.5rem;
 					margin:0;
 				}
@@ -473,8 +478,8 @@
 		}
 
 		h3 {
-			font-family: "sofia_proregular";
-			font-weight: normal;
+			font-family: "sofia_proregular", "Satoshi", sans-serif;
+			font-weight: 400;
 			color: #F9F4EF;
 			font-size: 1.5rem;
 			margin-left: 2.5rem;
@@ -493,10 +498,11 @@
 	}
 
 	.main-left {
-		max-width: 32rem;
+		max-width: 33rem;
 		
 		h1 {
-			font-family: "sofia_probold", sans-serif;
+			font-family: "sofia_probold", "Satoshi", sans-serif;
+			font-weight: 900;
 			font-size: 3.5rem;
 			margin-block: 0.1rem;
 		}
@@ -514,8 +520,8 @@
 
 		p {
 			max-width: 31rem;
-			font-family: "sofia_proregular";
-			font-weight: normal;
+			font-family: "sofia_proregular", "Satoshi", sans-serif;
+			font-weight: 400;
 			line-height: 30px;
 			font-size: 1.25rem;
 			margin-top: 1.5rem;
@@ -567,9 +573,9 @@
         }
 
         h2 {
-            font-family: "sofia_prosemibold";
+            font-family: "sofia_prosemibold", "Satoshi", sans-serif;
             font-size: 2rem;
-            font-weight: normal;
+            font-weight: 600;
 			margin-top: 1rem;
         }
     }

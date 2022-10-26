@@ -30,11 +30,7 @@
 <Footer />
 
 <style lang="scss">
-	@font-face {
-        font-family: 'SofiaProSemiBold';
-        font-style: normal;
-        src:local('SofiaProSemiBold'), url(./fonts/SofiaProSemiBold.otf) format('otf');
-    }
+	
 
     .center {
         margin-top: 5rem;
@@ -49,16 +45,16 @@
         }
 
         h1 {
-        font-family: "SofiaProSemiBold";
+        font-family: "sofia_prosemibold", "Satoshi", sans-serif;
         font-size: 32px;
-        font-weight: 100;
+        font-weight: 700;
         }
     }
 
     p {
         max-width: 568px;
         font-size: 1.125rem;
-        font-family: "Sofia Pro";
+        font-family: "Sofia Pro", "sofia_proregular", "Satoshi", sans-serif;
         line-height: 1.6rem;
         text-align: center;
         margin-inline: auto;

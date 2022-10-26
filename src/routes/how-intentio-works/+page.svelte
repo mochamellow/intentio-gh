@@ -65,7 +65,7 @@
                 <img class="caret-down" src="./icons/caret-forward.svg" alt="caret forward icon" on:click|self={toggleRef}>
             {/if}
 
-        <h3>References</h3>
+        <h3 style="font-family: 'Satoshi', sans-serif; font-weight: 700">References</h3>
     </div>
 
     
@@ -119,12 +119,6 @@
         z-index: -1;
     }
 
-	@font-face {
-        font-family: 'SofiaProSemiBold';
-        font-style: normal;
-        src:local('SofiaProSemiBold'), url(./fonts/SofiaProSemiBold.otf) format('otf');
-    }
-
     .center {
         margin-top: 5rem;
         text-align: center;
@@ -138,9 +132,9 @@
         }
 
         h1{
-            font-family: "SofiaProSemiBold";
+            font-family: "sofia_prosemibold", "Satoshi", sans-serif;
             font-size: 2rem;
-            font-weight: 100;
+            font-weight: 700;
         }
     }
 
@@ -157,7 +151,8 @@
         gap: 8px;
 
         h3 {
-            font-family: "SofiaProSemiBold";
+            font-family: "sofia_prosemibold", "Satoshi", sans-serif;
+            font-weight: 900;
             font-size: 1.5rem;
             font-weight: normal;
             padding-top: 4px;
@@ -172,7 +167,7 @@
     }
 
     p {
-        font-family: "Sofia Pro";
+        font-family: "sofia_proregular", "Satoshi", sans-serif;
         line-height: 1.6rem;
         font-size: 1.125rem;
         line-break: normal;
@@ -181,16 +176,17 @@
     }
 
     .small-title {
+        font-family: "sofia_probold", "Satoshi", sans-serif;
         font-size: 1.25rem;
-        font-weight: bold;
-        
+        font-weight: 900;
     }
 
     .references {
-         margin-bottom: 5rem;
+        margin-bottom: 5rem;
 
         li {
-        font-family: "Sofia Pro";
+        font-family: "sofia_proregular", "Satoshi", sans-serif;
+        font-weight: 400;
         text-decoration: dotted;
         line-height: 1.68rem;
         font-size: 1.125rem;
