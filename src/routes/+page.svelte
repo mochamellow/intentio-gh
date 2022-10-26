@@ -536,6 +536,13 @@
 	}
 
 	@font-face {
+		font-family: 'Sofia Pro', sans-serif;
+        font-style: normal;
+		font-weight: bold;
+        src:local('Sofia Pro'), url(./fonts/SofiaProBold.otf) format('otf');
+    }
+
+	@font-face {
         font-family: 'Bespoke Slab';
         font-style: normal;
 		font-weight: bold;
