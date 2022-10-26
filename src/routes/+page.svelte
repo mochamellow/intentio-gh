@@ -514,19 +514,19 @@
 		margin: 32px auto;
 	}
 	
-	@font-face {
-		font-family: 'Sofia Pro';
-        font-style: normal;
-		font-weight: 100;
-        src:local('Sofia Pro'), url(./fonts/SofiaProRegular.otf) format('otf');
-    }
+	// @font-face {
+	// 	font-family: 'Sofia Pro';
+    //     font-style: normal;
+	// 	font-weight: 100;
+    //     src:local('Sofia Pro'), url(./fonts/SofiaProRegular.otf) format('otf');
+    // }
 	
-	@font-face {
-		font-family: 'Sofia Pro';
-        font-style: normal;
-		font-weight: 500;
-        src:local('Sofia Pro'), url(./fonts/SofiaProMedium.otf) format('otf');
-    }
+	// @font-face {
+	// 	font-family: 'Sofia Pro';
+    //     font-style: normal;
+	// 	font-weight: 500;
+    //     src:local('Sofia Pro'), url(./fonts/SofiaProMedium.otf) format('otf');
+    // }
 
 	@font-face {
 		font-family: 'SofiaProSemiBold';
@@ -535,19 +535,19 @@
 		src:local('SofiaProSemiBold'), url(./fonts/SofiaProSemiBold.otf) format('otf');
 	}
 
-	@font-face {
-		font-family: 'Sofia Pro', sans-serif;
-        font-style: normal;
-		font-weight: bold;
-        src:local('Sofia Pro'), url(./fonts/SofiaProBold.otf) format('otf');
-    }
+	// @font-face {
+	// 	font-family: 'Sofia Pro', sans-serif;
+    //     font-style: normal;
+	// 	font-weight: bold;
+    //     src:local('Sofia Pro'), url(./fonts/SofiaProBold.otf) format('otf');
+    // }
 
-	@font-face {
-        font-family: 'Bespoke Slab';
-        font-style: normal;
-		font-weight: bold;
-        src:local('Bespoke Slab'), url(./fonts/BespokeSlab-Bold.otf) format('otf');
-    }
+	// @font-face {
+    //     font-family: 'Bespoke Slab';
+    //     font-style: normal;
+	// 	font-weight: bold;
+    //     src:local('Bespoke Slab'), url(./fonts/BespokeSlab-Bold.otf) format('otf');
+    // }
 
 	/* -------------------------------- SCROLLBAR ------------------------------- */
 	/* Width*/
