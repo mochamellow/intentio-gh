@@ -473,7 +473,7 @@
 
 		h3 {
 			font-family: "sofia_proregular", "Satoshi", sans-serif;
-			font-weight: 400;
+			font-weight: 500;
 			color: #F9F4EF;
 			font-size: 1.5rem;
 			margin-left: 2.5rem;
