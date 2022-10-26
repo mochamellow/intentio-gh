@@ -13,7 +13,6 @@
             </div>
             <p>Have suggestions, comments, or questions? Reach out!</p>
         </div>
-        &nbsp;
         <!-- TODO- Link to Your Socials -->
         <div class="socials">
             <img src="./icons/logo-linkedin.svg" alt="linkedin logo">
