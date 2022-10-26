@@ -18,7 +18,7 @@
         <div class="socials">
             <img src="./icons/logo-linkedin.svg" alt="linkedin logo">
             <img src="./icons/logo-behance.svg" alt="behance logo">
-            <img src="./icons/mail.svg" alt="mail icon">
+            <img src="./icons/shapes.svg" alt="mail icon">
         </div>
     </div> 
 </footer>
@@ -79,8 +79,8 @@
             justify-content: end;
 
             img {
-                width: 1.5rem;
-                height: 1.5rem;
+                width: 24px;
+                height: 24px;
             }
         }
     }
