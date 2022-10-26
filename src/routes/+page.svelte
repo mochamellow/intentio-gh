@@ -535,8 +535,8 @@
 
         h2 {
             font-family: "SofiaProSemiBold", "Satoshi", sans-serif;
+            font-weight: 700;
             font-size: 2rem;
-            font-weight: 500;
 			margin-top: 1rem;
         }
     }
