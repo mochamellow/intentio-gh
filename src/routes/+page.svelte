@@ -291,7 +291,7 @@
 
 				h3 {
 					font-family: "SofiaProSemiBold", "Satoshi", sans-serif;
-					font-weight: 500;
+					font-weight: 700;
 					font-size: 2rem;
 					line-height: 2.25rem;
 					margin-top: 0;
