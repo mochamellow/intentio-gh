@@ -34,7 +34,6 @@
 
     <p>As technology becomes more sophisticated, it gets better at hijacking our attention. As technology companies are at war for our attention—and as they get better and better in claiming our attention—essentially we lose out on everything else (studying for that exam, working towards that personal project, side hustles, or the things that you actually want to do) because our attention is being grabbed by all of these platforms.</p>
 
-    <!-- TODO- To add bottom up processing tooltip explanation -->
     <p>The mechanism they use to pull our attention away from our goals is through the sensory stimuli that take advantage of <span><a href="#" on:click={toggleModal}>bottom-up processing</a></span>.</p>
 
     <p>And as technology improves and gets better at claiming our attention—more effort is needed for us to give into controlling our minds and focus on the things we want to do. </p>
