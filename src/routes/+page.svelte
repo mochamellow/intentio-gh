@@ -36,6 +36,12 @@
 	
 	</main>
 	
+	<img class="lines-1" src="./img/lp-lines-1.svg" alt="lines background illustration">
+	<img class="lines-2" src="./img/lines-onwhite-3.svg" alt="lines background illustration">
+	<img class="lines-3" src="./img/lines-onwhite-3.svg" alt="lines background illustration">
+	<img class="lines-4" src="./img/lp-lines-2.svg" alt="lines background illustration">
+    <img class="lines-5" src="./img/lines-onwhite-2.svg" alt="lines background illustration">
+	
 	<div class="container" id="feature-anchor" bind:clientWidth={containerWidth}>
 		<div class="div1">
 			<h3>Be aware.</h3>
@@ -110,7 +116,7 @@
 						<div class="one-liner-text-icon">
 							<h3 id="text2">Mindless</h3>
 							<img class="arrow-forward" src="./icons/arrow-forward.svg" alt="arrow forward icon">
-							<h3 id="text2">Mindfull</h3>
+							<h3 id="text2">Mindful</h3>
 						</div>
 					</div>
 					<p style="width: 21.6rem;">When you visit a blocked site, you’ll get asked a short series of questions—designed to snap you out of the mindless state.</p>
@@ -181,7 +187,43 @@
  </div>
 
 <style lang="scss">
+	.lines-1 {
+		position: absolute;
+		left: 0;
+		top: 6.3rem;
+		z-index: -1;
+	}
+
+	.lines-2 {
+		position: absolute;
+		transform: scaleX(-1);
+		top: 36.25rem;
+		right: 0;
+		z-index: -1;
+	}
+
+	.lines-3 {
+		position: absolute;
+		transform: scaleY(-1);
+		top: 53rem;
+		left: 0;
+	}
+
+	.lines-4 {
+		position: absolute;
+		right: 0;
+		top: 93rem;
+		z-index: -1;
+	}
 	
+	.lines-5 {
+		position: absolute;
+		left: 0;
+		transform: scaleX(-1);
+		top: 136rem;
+		z-index: -1;
+	}
+
 	@font-face {
 		font-family: 'Sofia Pro';
         font-style: normal;

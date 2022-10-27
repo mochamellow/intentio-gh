@@ -68,9 +68,9 @@
 
     h4 {
         // Sofia Pro Bold
-        font-family: 'Sofia Pro', "Satoshi", sans-serif;
+        font-family: 'SofiaProSemiBold', "Satoshi", sans-serif;
         font-size: 17px;
-        font-weight: 500;
+        font-weight: 700;
         padding-top: 4px;
     }
 

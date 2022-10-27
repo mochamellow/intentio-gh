@@ -19,7 +19,7 @@
 	
     <div class="center">
         <img class="puzzle" src="./icons/puzzle.svg" alt="puzzle icon">
-        <h1>Intentio Questions</h1>
+        <h1>Intent Questions</h1>
     </div>
 
     <p>When you visit a blocked site, you'll get asked a short series of question—designed to snap you out of the mindless state.</p>
@@ -35,6 +35,12 @@
 
 <style lang="scss">
 	
+	@font-face {
+		font-family: 'SofiaProSemiBold';
+		font-style: normal;
+		font-weight: normal;
+		src:local('SofiaProSemiBold'), url(./fonts/SofiaProSemiBold.otf) format('otf');
+	}
 
     .center {
         margin-top: 5rem;
@@ -49,7 +55,7 @@
         }
 
         h1 {
-        font-family: "SofiaProSmeiBold", "Satoshi", sans-serif;
+        font-family: "SofiaProSemiBold", "Satoshi", sans-serif;
         font-weight: 700;
         font-size: 32px;
         }
