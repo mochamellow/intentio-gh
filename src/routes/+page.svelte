@@ -213,7 +213,7 @@
 		font-family: 'Sofia Pro', sans-serif;
         font-style: normal;
 		font-weight: bold;
-        src:local('Sofia Pro'), url(../../../intentio/static/fonts/SofiaProBold.otf) format('otf');
+        src:local('Sofia Pro'), url(../../../intentio-site/static/fonts/SofiaProBold.otf) format('otf');
     }
 
 	.lines-1 {
