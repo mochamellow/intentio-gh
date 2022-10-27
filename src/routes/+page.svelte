@@ -187,6 +187,35 @@
  </div>
 
 <style lang="scss">
+
+	@font-face {
+		font-family: 'Sofia Pro';
+        font-style: normal;
+		font-weight: 100;
+        src:local('Sofia Pro'), url(./fonts/SofiaProRegular.otf) format('otf');
+    }
+	
+	@font-face {
+		font-family: 'Sofia Pro';
+        font-style: normal;
+		font-weight: 500;
+        src:local('Sofia Pro'), url(./fonts/SofiaProMedium.otf) format('otf');
+    }
+
+	@font-face {
+		font-family: 'SofiaProSemiBold';
+		font-style: normal;
+		font-weight: normal;
+		src:local('SofiaProSemiBold'), url(./fonts/SofiaProSemiBold.otf) format('otf');
+	}
+
+	@font-face {
+		font-family: 'Sofia Pro', sans-serif;
+        font-style: normal;
+		font-weight: bold;
+        src:local('Sofia Pro'), url(./intentio-pages/fonts/SofiaProBold.otf) format('otf');
+    }
+
 	.lines-1 {
 		position: absolute;
 		left: 0;
@@ -223,34 +252,6 @@
 		top: 136rem;
 		z-index: -1;
 	}
-
-	@font-face {
-		font-family: 'Sofia Pro';
-        font-style: normal;
-		font-weight: 100;
-        src:local('Sofia Pro'), url(./fonts/SofiaProRegular.otf) format('otf');
-    }
-	
-	@font-face {
-		font-family: 'Sofia Pro';
-        font-style: normal;
-		font-weight: 500;
-        src:local('Sofia Pro'), url(./fonts/SofiaProMedium.otf) format('otf');
-    }
-
-	@font-face {
-		font-family: 'SofiaProSemiBold';
-		font-style: normal;
-		font-weight: normal;
-		src:local('SofiaProSemiBold'), url(./fonts/SofiaProSemiBold.otf) format('otf');
-	}
-
-	@font-face {
-		font-family: 'Sofia Pro', sans-serif;
-        font-style: normal;
-		font-weight: bold;
-        src:local('Sofia Pro'), url(./fonts/SofiaProBold.otf) format('otf');
-    }
 
 	#question-button {
 		position: absolute;
