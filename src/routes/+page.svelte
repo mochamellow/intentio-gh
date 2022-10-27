@@ -192,28 +192,28 @@
 		font-family: 'Sofia Pro';
         font-style: normal;
 		font-weight: 100;
-        src:local('Sofia Pro'), url(./fonts/SofiaProRegular.otf) format('otf');
+        src:local('Sofia Pro'), url(../../../intentio-site/static/fonts/SofiaProRegular.otf) format('otf');
     }
 	
 	@font-face {
 		font-family: 'Sofia Pro';
         font-style: normal;
 		font-weight: 500;
-        src:local('Sofia Pro'), url(./fonts/SofiaProMedium.otf) format('otf');
+        src:local('Sofia Pro'), url(../../../intentio-site/static/fonts/SofiaProMedium.otf) format('otf');
     }
 
 	@font-face {
 		font-family: 'SofiaProSemiBold';
 		font-style: normal;
 		font-weight: normal;
-		src:local('SofiaProSemiBold'), url(./fonts/SofiaProSemiBold.otf) format('otf');
+		src:local('SofiaProSemiBold'), url(../../../intentio-site/static/fonts/SofiaProSemiBold.otf) format('otf');
 	}
 
 	@font-face {
 		font-family: 'Sofia Pro', sans-serif;
         font-style: normal;
 		font-weight: bold;
-        src:local('Sofia Pro'), url(../../intentio-site/static/fonts/SofiaProBold.otf) format('otf');
+        src:local('Sofia Pro'), url(../../../intentio-site/static/fonts/SofiaProBold.otf) format('otf');
     }
 
 	.lines-1 {
