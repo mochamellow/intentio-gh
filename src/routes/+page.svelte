@@ -338,7 +338,7 @@
 					font-size: 2rem;
 					line-height: 2.25rem;
 					margin-top: 0;
-					margin-bottom: 0.5rem;
+					margin-bottom: 0.8rem;
 				}
 
 				p {
