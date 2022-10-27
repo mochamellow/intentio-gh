@@ -188,6 +188,8 @@
 
 <style lang="scss">
 
+
+
 	@font-face {
 		font-family: 'Sofia Pro';
         font-style: normal;
@@ -591,8 +593,62 @@
 	main{
 		max-width: 948px;
 		margin: 32px auto;
+		padding-inline: 40px;
 	}
+
+	@media screen and (max-width: 800px) {
+
+		.homepage-ui {
+			display: none;
+		}
+
+	}
+
+	@media screen and (max-width: 947px) {
+
+		.homepage-ui {
+			position: absolute;
+			right: -6%;
+		}
+
+		.first-section {
+
+			.main-left {
+				
+				margin-block: 3rem;
+				
+				h1 {
+					// Sofia Pro Bold
+					font-family: "Sofia Pro", "Satoshi", sans-serif;
+					font-weight: 900;
+					font-size: 3.2rem;
+					margin-block: 0rem;
+				}
 	
+				.line-icon-text {
+					display: flex;
+					align-items: center;
+					gap: 1rem;
+					margin-top: 0.4rem;
+	
+					.trail-sign {
+						margin-bottom: 0.5rem;
+					}
+				}
+	
+				p {
+					max-width: 28rem;
+					// Sofia Pro Regular
+					font-family: "Sofia Pro", "Satoshi", sans-serif;
+					font-weight: 500;
+					line-height: 25px;
+					font-size: 1.15rem;
+					margin-top: 1rem;
+					margin-bottom: 2rem;
+				}
+			}
+		}
+	}
 
 	/* -------------------------------- SCROLLBAR ------------------------------- */
 	/* Width*/
