@@ -112,7 +112,7 @@
         position: absolute;
         max-width: 22%;
         right: 0;
-        top: 90%;
+        top: 50rem;
     }
 
     .lines-3 {

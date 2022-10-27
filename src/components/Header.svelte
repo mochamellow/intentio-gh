@@ -15,7 +15,7 @@
                     <h4>How Intentio Works?</h4>
                 </div>
             </a>
-            <a href="/intentio-questions">
+            <a href="/intent-questions">
                 <div class="inline-icon-text">
                     <img src="./icons/puzzle-filled.svg" alt="puzzle icon">
                     <h4>Intent Questions</h4>

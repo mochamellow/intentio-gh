@@ -99,14 +99,14 @@
         position: absolute;
         max-width: 22%;
         left: 0;
-        top: 20%;
+        top: 12rem;
     }
 
     .lines-2 {
         position: absolute;
         max-width: 22%;
         right: 0;
-        top: 55%;
+        top: 55rem;
     }
 
     .lines-3 {
