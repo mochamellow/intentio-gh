@@ -49,7 +49,8 @@
 
     .center {
         text-align: center;
-        width: 100%;
+        width: 80vw;
+        max-width: 40rem;
 
         .mark {
             width: 4.4rem;

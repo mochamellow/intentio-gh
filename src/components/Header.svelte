@@ -3,6 +3,7 @@
         <a href="/"><h1><img class="logo" src="./intentio-logo.svg" alt="intentio-logo"></h1></a>
         <!-- TODO- Links to Other Pages -->
         <div class="nav">
+            <img class="menu" src="./icons/menu.svg" alt="menu icon">
             <a href="/#feature-anchor">
                 <div class="inline-icon-text">
                     <img src="./icons/sparkles-filled.svg" alt="sparkles icon">
@@ -27,6 +28,23 @@
 
 <style lang="scss">
 
+	@media screen and (max-width: 810px) {
+        .nav {
+            a {
+                display: none;
+            }
+            
+            .menu {
+                display: flex;
+                scale: 1.5;
+            }
+        }
+    }
+
+    .menu {
+        display: none;
+    }
+
     header {
         position: fixed;
         z-index: 10;
@@ -41,6 +59,7 @@
 		max-width: 948px;
         margin-inline: auto;
         padding-top: 8px;
+		padding-inline: 40px;
         display: flex;
         justify-content: space-between;
         align-items: center;

@@ -597,10 +597,50 @@
 		padding-inline: 40px;
 	}
 
-	@media screen and (max-width: 800px) {
+	@media screen and (max-width: 842px) {
 
 		.homepage-ui {
 			display: none;
+		}
+
+		.first-section {
+			text-align: center;
+			justify-content: center;
+
+			.main-left {
+				margin-block: 3rem;
+				
+				h1 {
+					// Sofia Pro Bold
+					font-family: "Sofia Pro", "Satoshi", sans-serif;
+					font-weight: 900;
+					font-size: 3.2rem;
+					margin-block: 0rem;
+				}
+	
+				.line-icon-text {
+					display: flex;
+					align-items: center;
+					gap: 1rem;
+					margin-top: 0.4rem;
+					justify-content: center;
+	
+					.trail-sign {
+						margin-bottom: 0.5rem;
+					}
+				}
+	
+				p {
+					width: 100%;
+					// Sofia Pro Regular
+					font-family: "Sofia Pro", "Satoshi", sans-serif;
+					font-weight: 500;
+					line-height: 25px;
+					font-size: 1.15rem;
+					margin-top: 1rem;
+					margin-bottom: 2rem;
+				}
+			}
 		}
 
 	}
@@ -608,8 +648,7 @@
 	@media screen and (max-width: 947px) {
 
 		.homepage-ui {
-			position: absolute;
-			right: -6%;
+			width: 18rem;
 		}
 
 		.first-section {
@@ -648,6 +687,207 @@
 					margin-bottom: 2rem;
 				}
 			}
+		}
+
+		.feature-section {
+			display: block;
+			align-items: center;
+			justify-content: center;
+			text-align: center;
+			margin-bottom: 4rem;
+
+			.feature-content {
+				margin-inline: auto;
+				justify-content: center;
+				text-align: center;
+
+				.icons {
+					display: flex;
+					gap: 1rem;
+					margin-bottom: 1rem;
+
+					text-align: center;
+					justify-content: center;
+
+					img {
+						width: 2rem;
+						height: 2rem;
+					}
+				}
+				
+				.text-container {
+					margin: auto;
+					padding: auto;
+					text-align: center;
+					justify-content: center;
+					margin-bottom: 2rem;
+
+					h3 {
+						font-family: "SofiaProSemiBold", "Satoshi", sans-serif;
+						font-weight: 700;
+						font-size: 1.8rem;
+						max-width: 16rem;
+						line-height: 2.25rem;
+						margin-top: 0;
+						margin-bottom: 0.8rem;
+
+						margin-inline: auto;
+					}
+
+					p {
+						font-size: 1rem;
+						// Sofia Pro Regular
+						font-family: "Sofia Pro", "Satoshi", sans-serif;
+						font-weight: 500;
+						line-height: 1.5rem;
+						margin:0;
+
+						text-align: center;
+						margin-inline: auto;
+					}
+				}
+			}
+
+			.img-container {
+				background-color: #E7E1D2;
+				border-radius: 1rem;
+				border: 2px solid #0f0e17;
+				
+				&-right {
+					box-shadow: 8px 8px #0f0e17;
+					position: relative;
+				}
+
+				&-left {
+					box-shadow: -8px 8px #0f0e17;
+					position: relative;
+				}
+
+				.feature-content-1 {
+					width: 29.75rem;
+					margin: 1.5rem;
+					z-index: 3;
+					position: relative;
+				}
+
+				.bg-1 {
+				
+					&-topright {
+						right: 0;
+						top: 0;
+						position: absolute;
+						z-index: 0;
+					}
+
+					&-bottomleft {
+						left: 0;
+						bottom: 0;
+						position: absolute;
+						z-index: 0;
+					}
+				}
+
+				.feature-content-2 {
+					margin-inline:17px;
+					margin-bottom: -5px;
+				}
+
+				.bg-2 {
+				
+					&-topleft {
+						left: 0;
+						top: 0;
+						position: absolute;
+						z-index: 0;
+					}
+
+					&-bottomright {
+						bottom: 0;
+						right: 0;
+						position: absolute;
+						z-index: 0;
+					}
+				}
+
+				.feature-content-3 {
+					width: 23.8rem;
+					margin: 1.5rem 4.5rem;
+					position: relative;
+					z-index: 2;
+				}
+
+				.bg-3 {
+				
+					&-bottomleft {
+						left: 0;
+						bottom: 0;
+						position: absolute;
+						z-index: 0;
+					}
+
+					&-topright {
+						top: 0;
+						right: 0;
+						position: absolute;
+						z-index: 0;
+					}
+				}
+
+				.feature-content-4 {
+					width: 30.11rem;
+					margin-top: 3.25rem;
+					margin-bottom: 2.375rem;
+					margin-right: 0.82rem;
+					margin-left: 1.68rem;
+					position: relative;
+					z-index: 3;
+				}
+
+				.feature-content-5 {
+					width: 28.9rem;
+					margin: 2.78rem 1.84rem;
+					position: relative;
+					z-index: 3;
+				}
+			}
+		}
+
+		.lines-1 {
+			position: absolute;
+			left: 0;
+			top: 6.3rem;
+			z-index: -1;
+			width: 8rem;
+		}
+
+		.lines-2 {
+			position: absolute;
+			transform: scaleX(-1);
+			top: 33rem;
+			right: 0;
+			z-index: -1;
+		}
+
+		.lines-3 {
+			position: absolute;
+			transform: scaleY(-1);
+			top: 50rem;
+			left: 0;
+		}
+
+		.lines-4 {
+			position: absolute;
+			right: 0;
+			top: 93rem;
+			z-index: -1;
+		}
+		
+		.lines-5 {
+			position: absolute;
+			left: 0;
+			transform: scaleX(-1);
+			top: 136;
+			z-index: -1;
 		}
 	}
 

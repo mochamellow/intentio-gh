@@ -199,6 +199,10 @@
         font-size: 1.125rem;
         margin-bottom: 1.125rem;
         text-align: justify;
+
+            a {
+                overflow-wrap: break-word;
+            }
         }
     }
 
@@ -206,6 +210,7 @@
 		background: #DAD3C2;
 		margin: 0;
 		padding: 0;
+        overflow-x: hidden;
 	}
 
 	.spacer {
@@ -215,6 +220,7 @@
 	main{
 		max-width: 948px;
 		margin: 32px auto;
+		padding-inline: 40px;
 	}
 
 

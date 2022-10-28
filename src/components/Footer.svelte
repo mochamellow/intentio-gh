@@ -27,6 +27,7 @@
         margin-inline: auto;
         padding-bottom: 40px;
         padding-top: 36px;
+		padding-inline: 40px;
         max-width: 948px;
         display: flex;
         justify-content: space-between;

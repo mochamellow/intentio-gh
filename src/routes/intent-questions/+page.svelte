@@ -78,12 +78,14 @@
         margin-inline: auto;
         margin-bottom: 5rem;
         max-width: 48.8rem;
+        width: 100%;
     }
 
 	:global(body) {
 		background: #DAD3C2;
 		margin: 0;
 		padding: 0;
+        overflow-x: hidden;
 	}
 
 	.spacer {
@@ -93,6 +95,7 @@
 	main{
 		max-width: 948px;
 		margin: 32px auto;
+		padding-inline: 40px;
 	}
 
     .lines-1 {
