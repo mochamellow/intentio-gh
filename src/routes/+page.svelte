@@ -592,6 +592,8 @@
 			font-size: 1.25rem;
 			margin-top: 1.5rem;
 			margin-bottom: 2rem;
+			margin-left: 0;
+			margin-right: auto;
 		}
 
         button {
@@ -692,6 +694,7 @@
 	
 				p {
 					width: 100%;
+					margin-inline: auto;
 					// Sofia Pro Regular
 					font-family: "Sofia Pro", "Satoshi", sans-serif;
 					font-weight: 500;
@@ -739,7 +742,6 @@
 				p {
 					width: 78vw;
 					max-width: 28rem;
-					margin-inline: auto;
 					// Sofia Pro Regular
 					font-family: "Sofia Pro", "Satoshi", sans-serif;
 					font-weight: 500;
