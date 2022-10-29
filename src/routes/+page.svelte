@@ -137,7 +137,7 @@
 					<img src="./icons/chatbox-ellipses.svg" alt="chatbox ellipses icon">
 				</div>
 				<div class="text-container">
-					<h3 class="text-container-h-3">Get Notified & Stay Accountable</h3>
+					<h3 class="text-container-h-3">Get Notified &<br>Stay Accountable</h3>
 					<p class="text-container-p-3-1">You’ll get notified of the time you have left according to how long you set for yourself on a blocked site.</p>
 					<p class="text-container-p-3-2">This helps you to be mindful and less likely to be irritated when you’re blocked from using the site when the time’s up.</p>
 				</div>
@@ -180,7 +180,7 @@
 					<img src="./icons/eye-black.svg" alt="chatbox ellipses icon">
 				</div>
 				<div class="text-container">
-					<h3 class="text-container-h-5">See Your Intentions at a Glance</h3>
+					<h3 class="text-container-h-5">See Your Intentions<br>at a Glance</h3>
 					<p class="text-container-p-5">Reveal your browsing intentions, the sites you visited, and the amount of time you spent there.<p>
 				</div>
 			</div>
@@ -364,7 +364,6 @@
 					font-weight: 500;
 					line-height: 1.5rem;
 					margin:0;
-					width: 100%;
 				}
 				
 				&-h-1 {
@@ -715,7 +714,7 @@
 		.first-section {
 
 			.main-left {
-				
+				width: 100%;	
 				margin-block: 3rem;
 				
 				h1 {
@@ -738,7 +737,9 @@
 				}
 	
 				p {
-					max-width: 28rem;
+					width: 78vw;
+					max-width: 30rem;
+					margin-inline: auto;
 					// Sofia Pro Regular
 					font-family: "Sofia Pro", "Satoshi", sans-serif;
 					font-weight: 500;
@@ -753,17 +754,11 @@
 
 		.feature-section {
 			display: block;
-			align-items: center;
-			justify-content: center;
 			text-align: center;
 			margin-bottom: 4rem;
 
 			.feature-content {
-				display: block;
 				margin-inline: auto;
-				align-items: center;
-				justify-content: center;
-				text-align: center;
 				max-width: 40rem;
 				width: 100%;
 
@@ -840,7 +835,7 @@
 					}
 
 					&-p-3-1 {
-						max-width: 30rem;
+						max-width: 27rem;
 						width: 80vw;
 						padding-bottom: 0.5rem;
 					}
@@ -990,7 +985,7 @@
 		.lines-2 {
 			position: absolute;
 			transform: scaleX(-1);
-			top: 37rem;
+			top: 35rem;
 			right: 0;
 			z-index: -1;
 		}
