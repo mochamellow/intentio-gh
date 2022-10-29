@@ -738,7 +738,7 @@
 	
 				p {
 					width: 78vw;
-					max-width: 30rem;
+					max-width: 28rem;
 					margin-inline: auto;
 					// Sofia Pro Regular
 					font-family: "Sofia Pro", "Satoshi", sans-serif;
