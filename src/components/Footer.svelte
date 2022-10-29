@@ -60,6 +60,7 @@
             font-size: 0.9rem;
             font-weight: 500;
             margin:0;
+            text-align: end;
         }
 
         .information {
