@@ -86,7 +86,7 @@
 					<img src="./icons/happy.svg" alt="smiley icon">
 				</div>
 				<div class="text-container">
-					<h3 class="text-container-h-1">Create Custom Block & Focus Sites</h3>
+					<h3 class="text-container-h-1">Create Custom<br>Block & Focus Sites</h3>
 					<p class="text-container-p-1">Block the time-wasting sites that distract you and add the sites you use to work towards your goals into focus sites.</p>
 				</div>
 			</div>
@@ -632,7 +632,7 @@
         margin-top: 5rem;
         text-align: center;
         align-items: center;
-        margin-bottom: 3.5rem;
+        margin-bottom: 4rem;
 
         .sparkle {
             width: 2rem;
@@ -768,7 +768,7 @@
 				width: 100%;
 
 				.icons {
-					margin-bottom: 1.5rem;
+					margin-bottom: 1rem;
 					text-align: center;
 					justify-content: center;
 
@@ -785,7 +785,7 @@
 					margin-bottom: 2rem;
 
 					.title-container {
-						margin-top: 1.5rem;
+						margin-top: 1.2rem;
 						margin-bottom: 0.8rem;
 						margin-inline: auto;
 
@@ -798,11 +798,18 @@
 							margin: auto;
 							justify-content: center;
 						}
+
+						.arrow-forward {
+							width: 1.8rem;
+							height: 1.8rem;
+							margin-bottom: 0.2rem;
+						}
 					}
 
 					h3 {
-						font-size: 1.8rem;
+						font-size: 1.5rem;
 						margin-inline: auto;
+						line-height: 1.8rem;
 					}
 
 					p {
@@ -813,7 +820,7 @@
 					}
 
 					&-h-1 {
-						max-width: 16rem;
+						max-width: 30rem;
 						width: 100vw;
 					}
 
