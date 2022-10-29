@@ -1004,7 +1004,7 @@
 		.lines-4 {
 			position: absolute;
 			right: 0;
-			top: 93rem;
+			top: 51rem;
 			z-index: -1;
 		}
 		
@@ -1014,6 +1014,7 @@
 			transform: scaleX(-1);
 			top: 136;
 			z-index: -1;
+			display: none;
 		}
 	}
 
