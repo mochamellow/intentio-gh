@@ -80,14 +80,14 @@
 	   </div>
 	
 		<div class="feature-section feature-gap-1">
-			<div class="feature-content" style="width: 408px">
+			<div class="feature-content">
 				<div class="icons">
 					<img src="./icons/book.svg" alt="book icon">
 					<img src="./icons/happy.svg" alt="smiley icon">
 				</div>
 				<div class="text-container">
-					<h3 style="width: 18.5rem;">Create Custom Block & Focus Sites</h3>
-					<p style="width: 21.6rem;">Block the time-wasting sites that distract you and add the sites you use to work towards your goals into focus sites.</p>
+					<h3 class="text-container-h-1">Create Custom Block & Focus Sites</h3>
+					<p class="text-container-p-1">Block the time-wasting sites that distract you and add the sites you use to work towards your goals into focus sites.</p>
 				</div>
 			</div>
 			<div class="img-container img-container-right">
@@ -106,33 +106,40 @@
 				<!-- svelte-ignore a11y-img-redundant-alt -->
 				<img class="feature-content-2" src="./img/feature-content2.png" alt="feature image 1">
 			</div>
-			<div class="feature-content" style="width: 408px">
+			<div class="feature-content">
 				<div class="icons">
 					<img src="./icons/accessibility.svg" alt="book icon">
 				</div>
 				<div class="text-container">
 					<div class="title-container">
-						<h3 id="text1" style="width: 18.5rem;">Shift From</h3>
+						<h3 id="text1">Shift From</h3>
 						<div class="one-liner-text-icon">
 							<h3 id="text2">Mindless</h3>
 							<img class="arrow-forward" src="./icons/arrow-forward.svg" alt="arrow forward icon">
 							<h3 id="text2">Mindful</h3>
 						</div>
 					</div>
-					<p style="width: 21.6rem;">When you visit a blocked site, you’ll get asked a short series of questions—designed to snap you out of the mindless state.</p>
+					<p class="text-container-p-2">When you visit a blocked site, you’ll get asked a short series of questions—designed to snap you out of the mindless state.</p>
 				</div>
+			</div>
+			<div class="img-container img-container-center">
+				<a href="/intent-questions"><button id="question-button"><img class="logo-chrome" src="./icons/eye.svg" alt="eye icon" >View Questions</button></a>
+				<img class="bg-2-topleft" src="./img/feature-content-bg-2-topleft.svg" alt="background lines">
+				<img class="bg-2-bottomright" src="./img/feature-content-bg-2-bottomright.svg" alt="background lines">
+				<!-- svelte-ignore a11y-img-redundant-alt -->
+				<img class="feature-content-2" src="./img/feature-content2.png" alt="feature image 1">
 			</div>
 		</div>
 	
 		<div class="feature-section feature-gap-1">
-			<div class="feature-content" style="width: 408px">
+			<div class="feature-content">
 				<div class="icons">
 					<img src="./icons/chatbox-ellipses.svg" alt="chatbox ellipses icon">
 				</div>
 				<div class="text-container">
-					<h3 style="width: 17rem;">Get Notified & Stay Accountable</h3>
-					<p style="width: 20rem; margin-bottom: 0.5rem;">You’ll get notified of the time you have left according to how long you set for yourself on a blocked site.</p>
-					<p style="width: 20rem">This helps you to be mindful and less likely to be irritated when you’re blocked from using the site when the time’s up.</p>
+					<h3 class="text-container-h-3">Get Notified & Stay Accountable</h3>
+					<p class="text-container-p-3-1">You’ll get notified of the time you have left according to how long you set for yourself on a blocked site.</p>
+					<p class="text-container-p-3-2">This helps you to be mindful and less likely to be irritated when you’re blocked from using the site when the time’s up.</p>
 				</div>
 			</div>
 			<div class="img-container img-container-right">
@@ -150,26 +157,31 @@
 				<!-- svelte-ignore a11y-img-redundant-alt -->
 				<img class="feature-content-4" src="./img/feature-content4.png" alt="feature image 4">
 			</div>
-			<div class="feature-content" style="width: 408px">
+			<div class="feature-content">
 				<div class="icons">
 					<img src="./icons/stopwatch.svg" alt="stopwatch icon">
 				</div>
 				<div class="text-container">
-					<h3 style="width: 17rem;">Auto Focus Mode</h3>
-					<p style="width: 20rem; margin-bottom: 0.5rem;">Start the Pomodoro timer whenever you visit your focus site.</p>
-					<p>Never forget about starting a Pomodoro session anymore.</p>
+					<h3 class="text-container-h-4">Auto Focus Mode</h3>
+					<p class="text-container-p-4">Start the Pomodoro timer whenever you visit your focus site, and never forget about starting a Pomodoro session anymore.</p>
 				</div>
+			</div>
+			<div class="img-container img-container-center">
+				<img class="bg-1-topright" src="./img/feature-content-bg-1-topright.svg" alt="background lines">
+				<img class="bg-1-bottomleft" src="./img/feature-content-bg-1-bottomleft.svg" alt="background lines">
+				<!-- svelte-ignore a11y-img-redundant-alt -->
+				<img class="feature-content-4" src="./img/feature-content4.png" alt="feature image 4">
 			</div>
 		</div>
 	
 		<div class="feature-section feature-gap-1">
-			<div class="feature-content" style="width: 408px">
+			<div class="feature-content">
 				<div class="icons">
 					<img src="./icons/eye-black.svg" alt="chatbox ellipses icon">
 				</div>
 				<div class="text-container">
-					<h3 style="width: 18.43rem;">See Your Intentions at a Glance</h3>
-					<p style="width: 21.875rem;">Reveal your browsing intentions, the sites you visited, and the amount of time you spent there.<p>
+					<h3 class="text-container-h-5">See Your Intentions at a Glance</h3>
+					<p class="text-container-p-5">Reveal your browsing intentions, the sites you visited, and the amount of time you spent there.<p>
 				</div>
 			</div>
 			<div class="img-container img-container-right">
@@ -286,6 +298,7 @@
 	.title-container {
 		#text1 {
 			margin-bottom: 0px;
+			width: 18.5rem;
 		}
 		
 		.one-liner-text-icon {
@@ -320,6 +333,7 @@
 		margin-bottom: 4rem;
 
 		.feature-content {
+			width: 408px;
 
 			.icons {
 				display: flex;
@@ -350,6 +364,49 @@
 					font-weight: 500;
 					line-height: 1.5rem;
 					margin:0;
+					width: 100%;
+				}
+				
+				&-h-1 {
+					width: 18.5rem;
+				}
+
+				&-p-1 {
+					width: 21.6rem;
+				}
+
+				&-p-2 {
+					width: 21.6rem;
+				}
+
+				&-h-3 {
+					width: 17rem;
+				}
+
+				&-p-3-1 {
+					width: 20rem;
+					margin-bottom: 0.5rem;
+				}
+
+				&-p-3-2 {
+					width: 20rem;
+				}
+
+				&-h-4 {
+					width: 17rem;
+				}
+
+				&-p-4 {
+					width: 20rem;
+					margin-bottom: 0.5rem;
+				}
+
+				&-h-5 {
+					width: 18.43rem;
+				}
+
+				&-p-5 {
+					width: 21.875rem;
 				}
 			}
 		}
@@ -367,6 +424,10 @@
 			&-left {
 				box-shadow: -8px 8px #0f0e17;
 				position: relative;
+			}
+
+			&-center {
+				display: none;
 			}
 
 			.feature-content-1 {
@@ -645,7 +706,7 @@
 
 	}
 
-	@media screen and (max-width: 947px) {
+	@media screen and (max-width: 964px) {
 
 		.homepage-ui {
 			width: 18rem;
@@ -689,6 +750,7 @@
 			}
 		}
 
+
 		.feature-section {
 			display: block;
 			align-items: center;
@@ -697,15 +759,16 @@
 			margin-bottom: 4rem;
 
 			.feature-content {
+				display: block;
 				margin-inline: auto;
+				align-items: center;
 				justify-content: center;
 				text-align: center;
+				max-width: 40rem;
+				width: 100%;
 
 				.icons {
-					display: flex;
-					gap: 1rem;
-					margin-bottom: 1rem;
-
+					margin-bottom: 1.5rem;
 					text-align: center;
 					justify-content: center;
 
@@ -716,34 +779,87 @@
 				}
 				
 				.text-container {
-					margin: auto;
-					padding: auto;
+					display: block;
+					margin-inline: auto;
 					text-align: center;
-					justify-content: center;
 					margin-bottom: 2rem;
 
-					h3 {
-						font-family: "SofiaProSemiBold", "Satoshi", sans-serif;
-						font-weight: 700;
-						font-size: 1.8rem;
-						max-width: 16rem;
-						line-height: 2.25rem;
-						margin-top: 0;
+					.title-container {
+						margin-top: 1.5rem;
 						margin-bottom: 0.8rem;
+						margin-inline: auto;
 
+						#text1 {
+							margin-bottom: 0px;
+						}
+						
+						.one-liner-text-icon {
+							width: 10rem;
+							margin: auto;
+							justify-content: center;
+						}
+					}
+
+					h3 {
+						font-size: 1.8rem;
 						margin-inline: auto;
 					}
 
 					p {
-						font-size: 1rem;
-						// Sofia Pro Regular
-						font-family: "Sofia Pro", "Satoshi", sans-serif;
-						font-weight: 500;
-						line-height: 1.5rem;
-						margin:0;
-
-						text-align: center;
+						display: block;
+						justify-self: center;
+						width: 100%;
 						margin-inline: auto;
+					}
+
+					&-h-1 {
+						max-width: 16rem;
+						width: 100vw;
+					}
+
+					&-p-1 {
+						max-width: 30rem;
+						width: 80vw;
+					}
+
+					&-p-2 {
+						max-width: 30rem;
+						width: 80vw;
+					}
+
+					&-h-3 {
+						max-width: 28rem;
+						width: 50vw;
+					}
+
+					&-p-3-1 {
+						max-width: 30rem;
+						width: 80vw;
+						padding-bottom: 0.5rem;
+					}
+
+					&-p-3-2 {
+						max-width: 30rem;
+						width: 80vw;
+					}
+
+					&-h-4 {
+						width: 17rem;
+					}
+
+					&-p-4 {
+						max-width: 30rem;
+						width: 80vw;
+					}
+
+					&-h-5 {
+						max-width: 16rem;
+						width: 100vw;
+					}
+
+					&-p-5 {
+						max-width: 30rem;
+						width: 80vw;
 					}
 				}
 			}
@@ -752,15 +868,19 @@
 				background-color: #E7E1D2;
 				border-radius: 1rem;
 				border: 2px solid #0f0e17;
-				
+
 				&-right {
-					box-shadow: 8px 8px #0f0e17;
-					position: relative;
+					box-shadow: 0px 8px #0f0e17;
 				}
 
 				&-left {
-					box-shadow: -8px 8px #0f0e17;
+					display: none;
+				}
+
+				&-center {
+					display: block;
 					position: relative;
+					box-shadow: 0px 8px #0f0e17;
 				}
 
 				.feature-content-1 {
