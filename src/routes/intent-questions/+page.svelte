@@ -102,14 +102,14 @@
         position: absolute;
         max-width: 22%;
         left: 0;
-        top: 12rem;
+        top: 20%;
     }
 
     .lines-2 {
         position: absolute;
         max-width: 22%;
         right: 0;
-        top: 55rem;
+        top: 50rem;
     }
 
     .lines-3 {
@@ -118,6 +118,5 @@
         max-width: 22%;
         left: 0;
     }
-
 
 </style>
