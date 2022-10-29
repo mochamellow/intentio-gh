@@ -240,7 +240,7 @@
 	.lines-2 {
 		position: absolute;
 		transform: scaleX(-1);
-		top: 36.25rem;
+		top: 38rem;
 		right: 0;
 		z-index: -1;
 	}
