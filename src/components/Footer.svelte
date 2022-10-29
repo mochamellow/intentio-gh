@@ -1,6 +1,6 @@
 <footer>
 
-    <div class="left-footer">
+    <div class="left-footer desktop-view">
         <h1 class="logo"><img src="./intentio-logo.svg" alt="intentio-logo"></h1>
         <div class="copyright">© 2022 Intentio. All Rights Reserved.</div>
     </div>
@@ -16,10 +16,14 @@
         &nbsp;
         <div class="socials">
             <img src="./icons/logo-linkedin.svg" alt="linkedin logo">
-            <img src="./icons/logo-behance.svg" alt="behance logo">
+            <!-- <img src="./icons/logo-behance.svg" alt="behance logo"> -->
             <img src="./icons/mail.svg" alt="mail icon">
         </div>
     </div> 
+    <div class="left-footer mobile-view">
+        <h1 class="logo"><img src="./intentio-logo.svg" alt="intentio-logo"></h1>
+        <div class="copyright">© 2022 Intentio. All Rights Reserved.</div>
+    </div>
 </footer>
 
 <style lang="scss">
@@ -88,13 +92,14 @@
         }
     }
     
-    
     .cafe {
         width: 20px;
         height: 20px;
     }
 
-    
+    .mobile-view {
+        display: none;
+    }
 
     .rainbow {
         animation: color-change 5s infinite;
@@ -107,6 +112,72 @@
         50% {color: #8C64FF;}
         75% {color: #BE4949}
         100% {color:#9A6547;}
+    }
+
+    @media screen and (max-width: 730px) {
+
+        footer {
+            display: block;
+            margin-inline: auto;
+            padding-bottom: 40px;
+            padding-top: 3rem;
+            padding-inline: 40px;
+            max-width: 948px;
+            justify-content: center;
+            text-align: center;
+        }
+
+        img {
+            max-width: 147px;
+        }
+
+        .copyright {
+            // Sofia Pro Regular
+            font-family: 'Sofia Pro', "Satoshi", sans-serif;
+            font-size: 1rem;
+            font-weight: 500;
+            color: #8A826F;
+            display: inline-block;
+            margin-top: auto;
+        }
+
+        .desktop-view {
+            display: none;
+        }
+
+        .mobile-view {
+            margin-top: 3rem;
+            display: block;
+        }
+
+        .right-footer {
+
+            p {
+                text-align: center;
+                font-size: 1rem;
+            }
+
+            .information {
+                line-height: 1.6rem;
+
+                #one-liner {
+                    justify-content: center;
+                }
+            }
+            
+
+            .socials {
+                margin-top: 0.5rem;
+                gap: 1.5rem;
+                justify-content: center;
+                align-items: center;
+
+                img {
+                    width: 2rem;
+                    height: 2rem;
+                }
+            }
+        }
     }
 
 </style>
