@@ -627,6 +627,8 @@
 		padding: 0;
 		overflow: overlay;
 		overflow-x: hidden;
+
+		scrollbar-color: hotpink;
 	}
 
     .center {

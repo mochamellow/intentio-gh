@@ -28,7 +28,7 @@
 
 <style lang="scss">
 
-	@media screen and (max-width: 810px) {
+	@media screen and (max-width: 820px) {
         .nav {
             a {
                 display: none;
