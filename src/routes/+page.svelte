@@ -430,7 +430,8 @@
 			}
 
 			.feature-content-1 {
-				width: 29.75rem;
+				max-width: 29.75rem;
+				width: 100%;
 				margin: 1.5rem;
 				z-index: 3;
 				position: relative;
@@ -890,7 +891,8 @@
 				}
 
 				.feature-content-1 {
-					width: 29.75rem;
+					max-width: 29.75rem;
+					width: 70vw;
 					margin: 1.5rem;
 					z-index: 3;
 					position: relative;
@@ -916,6 +918,7 @@
 				.feature-content-2 {
 					margin-inline:17px;
 					margin-bottom: -5px;
+					width: 70vw;
 				}
 
 				.bg-2 {
@@ -936,8 +939,9 @@
 				}
 
 				.feature-content-3 {
-					width: 23.8rem;
-					margin: 1.5rem 4.5rem;
+					max-width: 23.8rem;
+					width: 65vw;
+					margin: 1.5rem auto;
 					position: relative;
 					z-index: 2;
 				}
@@ -960,18 +964,20 @@
 				}
 
 				.feature-content-4 {
-					width: 30.11rem;
-					margin-top: 3.25rem;
-					margin-bottom: 2.375rem;
-					margin-right: 0.82rem;
-					margin-left: 1.68rem;
+					max-width: 30.11rem;
+					width: 80vw;
+					margin-top: 2.7rem;
+					margin-bottom: 2rem;
+					margin-inline: auto;
+					padding-left: 0.8rem;
 					position: relative;
 					z-index: 3;
 				}
 
 				.feature-content-5 {
-					width: 28.9rem;
-					margin: 2.78rem 1.84rem;
+					max-width: 28.9rem;
+					width: 76vw;
+					margin: 2.78rem auto;
 					position: relative;
 					z-index: 3;
 				}
