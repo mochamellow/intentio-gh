@@ -68,7 +68,7 @@
         text-align: center;
         justify-content: center;
         border-bottom: 2px solid #0f0e17;
-        animation: slidedown 0.8s normal;
+        animation: slidedown 0.5s normal;
 
         img {
             max-width: 20px;
