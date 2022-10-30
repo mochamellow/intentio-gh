@@ -286,6 +286,8 @@
 		font-size: 16px;
 		box-shadow: 0px 0px 24px rgba(15, 14, 23, 0.32);
 
+		white-space: nowrap;
+
 		.logo-chrome {
 			width: 1.5rem;
 			height: 1.5rem;
