@@ -161,11 +161,15 @@
 
             p {
                 text-align: center;
-                font-size: 1.1rem;
+                font-size: 1rem;
+            }
+
+            .second-p {
+                margin-top: 0.8rem;
             }
 
             .information {
-                line-height: 1.5rem;
+                line-height: 1.7rem;
 
                 #one-liner {
                     justify-content: center;
