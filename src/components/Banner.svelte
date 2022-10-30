@@ -7,8 +7,7 @@
     <div class="vertical-center">
         <div class="center">
             <img class="mark" src="./intentio-mark-white.svg" alt="intentio white logo">
-            <h1>It's Time to Be Intentional</h1>
-
+            <h1 id="title">It's Time to Be Intentional</h1>
             <button><img class="logo-chrome" src="./icons/logo-chrome.svg" alt="chrome logo" >Add to Chrome</button>
         </div>
     </div>
@@ -21,6 +20,9 @@
 <style lang="scss">
 
     @media screen and (max-width: 570px) {
+        #title {
+            font-size: 1.5rem;
+        }
         
     }
 
