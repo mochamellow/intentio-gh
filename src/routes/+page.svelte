@@ -21,12 +21,12 @@
 	<main>
 		<section class="first-section">
 			<div class="main-left">
-				<h1>Stop Browsing</h1>
+				<h1 class="title-h1">Stop Browsing</h1>
 				<div class="line-icon-text">
 					<img class="trail-sign" src="./icons/trail-sign.svg" alt="trail sign icon">
-					<h1>Mindlessly &</h1>
+					<h1 class="title-h1">Mindlessly &</h1>
 				</div>
-				<h1>Become Intentional</h1>
+				<h1 class="title-h1">Become Intentional</h1>
 				<p>Uncover your true intentions on internet consumption and shift your actions mindfully towards the things you actually want to do.</p>
 				<button><img class="logo-chrome" src="./icons/logo-chrome.svg" alt="chrome logo" >Add to Chrome</button>
 			</div>
@@ -580,6 +580,8 @@
 			margin-top: 0.4rem;
 
 			.trail-sign {
+				max-width: 4.5rem;
+				width: 10vw;
 				margin-bottom: 0.5rem;
 			}
 		}
@@ -662,6 +664,38 @@
 		padding-inline: 40px;
 	}
 
+	@media screen and (max-width: 570px) {
+
+		main {
+			margin: 32px 24px;
+			padding-inline: 0;
+		}
+
+		.first-section {
+
+			.main-left {
+				margin-block: 2rem;
+				
+				.title-h1 {
+					font-size: 2.1rem;
+				}
+	
+				.line-icon-text {
+	
+					.trail-sign {
+						margin-bottom: 0.5rem;
+					}
+				}
+	
+				p {
+					margin-top: 1rem;
+					margin-bottom: 2rem;
+				}
+			}
+		}
+
+	}
+
 	@media screen and (max-width: 842px) {
 
 		.homepage-ui {
@@ -676,10 +710,7 @@
 				margin-block: 3rem;
 				
 				h1 {
-					// Sofia Pro Bold
-					font-family: "Sofia Pro", "Satoshi", sans-serif;
 					font-weight: 900;
-					font-size: 3.2rem;
 					margin-block: 0rem;
 				}
 	
@@ -724,26 +755,25 @@
 				margin-block: 3rem;
 				
 				h1 {
-					// Sofia Pro Bold
-					font-family: "Sofia Pro", "Satoshi", sans-serif;
 					font-weight: 900;
 					font-size: 3.2rem;
-					margin-block: 0rem;
 				}
 	
 				.line-icon-text {
 					display: flex;
 					align-items: center;
-					gap: 1rem;
+					gap: 0.5rem;
 					margin-top: 0.4rem;
 	
 					.trail-sign {
+						width: 11vw;
+						min-width: 3rem;
 						margin-bottom: 0.5rem;
 					}
 				}
 	
 				p {
-					width: 78vw;
+					width: 100%;
 					max-width: 28rem;
 					// Sofia Pro Regular
 					font-family: "Sofia Pro", "Satoshi", sans-serif;
@@ -821,7 +851,7 @@
 
 					&-h-1 {
 						max-width: 30rem;
-						width: 100vw;
+						width: 100%;
 					}
 
 					&-p-1 {
