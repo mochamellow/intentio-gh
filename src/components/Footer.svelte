@@ -10,10 +10,10 @@
                 <!-- <p class="footer-text">Made with</p>
                 <img src="./icons/cafe.svg" class="cafe" alt="cafe icon">
                 <p class="footer-text">and a hint of procrastination by <span class="rainbow">Gil</span></p> -->
-                <p>Made with ☕ and a hint of procrastination by <span class="rainbow">Gil</span><br>Have suggestions, comments, or questions? Reach out!</p>
+                <p>Made with ☕ and a hint of procrastination by <span class="rainbow">Gil</span></p>
             </div>
             <p></p>
-            <!-- <p class="footer-text">Have suggestions, comments, or questions? Reach out!</p> -->
+            <p class="second-p">Have suggestions, comments, or questions? Reach out!</p>
         </div>
         &nbsp;
         <div class="socials">
@@ -70,8 +70,12 @@
             text-align: end;
         }
 
+        .second-p {
+            margin-top: 0.5rem;
+        }
+
         .information {
-            line-height: 1.6rem;
+            line-height: 1rem;
 
             #one-liner {
                 display: flex;
@@ -80,7 +84,6 @@
                 justify-content: end;
             }
         }
-        
 
         .socials {
             display: flex;
@@ -157,11 +160,11 @@
 
             p {
                 text-align: center;
-                font-size: 1rem;
+                font-size: 1.1rem;
             }
 
             .information {
-                line-height: 1.6rem;
+                line-height: 1.5rem;
 
                 #one-liner {
                     justify-content: center;
