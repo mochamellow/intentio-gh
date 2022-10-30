@@ -7,11 +7,13 @@
     <div class="right-footer">
         <div class="information">
             <div id="one-liner">
-                <p>Made with</p>
+                <!-- <p class="footer-text">Made with</p>
                 <img src="./icons/cafe.svg" class="cafe" alt="cafe icon">
-                <p>and a hint of procrastination by <span class="rainbow">Gil</span></p>
+                <p class="footer-text">and a hint of procrastination by <span class="rainbow">Gil</span></p> -->
+                <p>Made with ☕ and a hint of procrastination by <span class="rainbow">Gil</span><br>Have suggestions, comments, or questions? Reach out!</p>
             </div>
-            <p>Have suggestions, comments, or questions? Reach out!</p>
+            <p></p>
+            <!-- <p class="footer-text">Have suggestions, comments, or questions? Reach out!</p> -->
         </div>
         &nbsp;
         <div class="socials">
@@ -27,6 +29,7 @@
 </footer>
 
 <style lang="scss">
+
     footer {
         margin-inline: auto;
         padding-bottom: 40px;
@@ -92,10 +95,10 @@
         }
     }
     
-    .cafe {
-        width: 20px;
-        height: 20px;
-    }
+    // .cafe {
+    //     width: 20px;
+    //     height: 20px;
+    // }
 
     .mobile-view {
         display: none;
