@@ -45,6 +45,14 @@
             transform: translate(0, -100%);
         }
 
+        50% {
+            transform: translate(0, 5%);
+        }
+
+        80% {
+            transform: translate(0, -1%);
+        }
+
         100% {
             transform: translate(0, 0%);
         }
@@ -59,7 +67,8 @@
         background: #DAD3C2;
         text-align: center;
         justify-content: center;
-        animation: slidedown 0.2s normal;
+        border-bottom: 2px solid #0f0e17;
+        animation: slidedown 0.8s normal;
 
         img {
             max-width: 20px;
