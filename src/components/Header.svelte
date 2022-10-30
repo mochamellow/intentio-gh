@@ -1,9 +1,21 @@
+<script>
+    import MobileNav from './MobileNav.svelte';
+
+    let showNav = false;
+    const toggleNav = () => {
+        showNav = !showNav;
+    }
+
+</script>
+
+<MobileNav showNav={showNav} on:click={toggleNav}/>
+
 <header>
     <div class="content">
         <a href="/"><h1><img class="logo" src="./intentio-logo.svg" alt="intentio-logo"></h1></a>
-        <!-- TODO- Links to Other Pages -->
         <div class="nav">
-            <img class="menu" src="./icons/menu.svg" alt="menu icon">
+            <!-- svelte-ignore a11y-click-events-have-key-events -->
+            <img class="menu" src="./icons/menu.svg" alt="menu icon" on:click={toggleNav}>
             <a href="/#feature-anchor">
                 <div class="inline-icon-text">
                     <img src="./icons/sparkles-filled.svg" alt="sparkles icon">
