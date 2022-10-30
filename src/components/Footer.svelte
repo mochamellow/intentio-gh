@@ -43,6 +43,7 @@
 
     .logo {
         margin-top: 0;
+        padding-top: 0.2rem;
     } 
 
     img {
@@ -56,7 +57,7 @@
         font-weight: 500;
         color: #8A826F;
         display: inline-block;
-        margin-top: 8px;
+        margin-bottom: 12px;
     }
 
     .right-footer {
