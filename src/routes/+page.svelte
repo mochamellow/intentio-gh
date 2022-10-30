@@ -666,6 +666,18 @@
 
 	@media screen and (max-width: 570px) {
 
+		.lines-2 {
+			margin-top: -2rem;
+		}
+
+		.lines-3 {
+			margin-top: -3rem;
+		}
+
+		.lines-4 {
+			margin-top: -4rem;
+		}
+
 		main {
 			margin: 32px 24px;
 			padding-inline: 0;

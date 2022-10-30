@@ -20,6 +20,10 @@
 
 <style lang="scss">
 
+    @media screen and (max-width: 570px) {
+        
+    }
+
     section {
         position: relative;
         height: 344px;
@@ -28,14 +32,16 @@
         .lines-1 {
             position: absolute;
             // width: 20%;
-            max-width: 22%;
+            max-width: 18rem;
+            width: 30vw;
             right: 13%;
         }
 
         .lines-2 {
             position: absolute;
-            max-width: 22%;
-            left: 13%;
+            max-width: 18rem;
+            width: 35vw;
+            left: 12%;
             bottom: 0;
         }
     }
