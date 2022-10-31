@@ -80,6 +80,12 @@
 	   </div>
 	
 		<div class="feature-section feature-gap-1">
+			<div class="img-container img-container-center">
+				<img class="bg-1-topright" src="./img/feature-content-bg-1-topright.svg" alt="background lines">
+				<img class="bg-1-bottomleft" src="./img/feature-content-bg-1-bottomleft.svg" alt="background lines">
+				<!-- svelte-ignore a11y-img-redundant-alt -->
+				<img class="feature-content-1" src="./img/feature-content1.png" alt="feature image 1">
+			</div>
 			<div class="feature-content">
 				<div class="icons">
 					<img src="./icons/book.svg" alt="book icon">
@@ -122,16 +128,15 @@
 					<p class="text-container-p-2">When you visit a blocked site, you’ll get asked a short series of questions—designed to snap you out of the mindless state.</p>
 				</div>
 			</div>
-			<div class="img-container img-container-center">
-				<a href="/intent-questions"><button id="question-button"><img class="logo-chrome" src="./icons/eye.svg" alt="eye icon" >View Questions</button></a>
-				<img class="bg-2-topleft" src="./img/feature-content-bg-2-topleft.svg" alt="background lines">
-				<img class="bg-2-bottomright" src="./img/feature-content-bg-2-bottomright.svg" alt="background lines">
-				<!-- svelte-ignore a11y-img-redundant-alt -->
-				<img class="feature-content-2" src="./img/feature-content2.png" alt="feature image 1">
-			</div>
 		</div>
 	
 		<div class="feature-section feature-gap-1">
+			<div class="img-container img-container-center">
+				<img class="bg-3-bottomleft" src="./img/feature-content-bg-3-bottomleft.svg" alt="background lines">
+				<img class="bg-3-topright" src="./img/feature-content-bg-3-topright.svg" alt="background lines">
+				<!-- svelte-ignore a11y-img-redundant-alt -->
+				<img class="feature-content-3" src="./img/feature-content3.png" alt="feature image 1">
+			</div>
 			<div class="feature-content">
 				<div class="icons">
 					<img src="./icons/chatbox-ellipses.svg" alt="chatbox ellipses icon">
@@ -166,15 +171,15 @@
 					<p class="text-container-p-4">Start the Pomodoro timer whenever you visit your focus site, and never forget about starting a Pomodoro session anymore.</p>
 				</div>
 			</div>
+		</div>
+	
+		<div class="feature-section feature-gap-1">
 			<div class="img-container img-container-center">
 				<img class="bg-1-topright" src="./img/feature-content-bg-1-topright.svg" alt="background lines">
 				<img class="bg-1-bottomleft" src="./img/feature-content-bg-1-bottomleft.svg" alt="background lines">
 				<!-- svelte-ignore a11y-img-redundant-alt -->
-				<img class="feature-content-4" src="./img/feature-content4.png" alt="feature image 4">
+				<img class="feature-content-5" src="./img/feature-content5.png" alt="feature image 1">
 			</div>
-		</div>
-	
-		<div class="feature-section feature-gap-1">
 			<div class="feature-content">
 				<div class="icons">
 					<img src="./icons/eye-black.svg" alt="chatbox ellipses icon">
@@ -804,12 +809,13 @@
 		.feature-section {
 			display: block;
 			text-align: center;
-			margin-bottom: 4rem;
+			margin-bottom: 6rem;
 
 			.feature-content {
 				margin-inline: auto;
 				max-width: 40rem;
 				width: 100%;
+				margin-top: 3rem;
 
 				.icons {
 					margin-bottom: 1rem;
@@ -826,7 +832,6 @@
 					display: block;
 					margin-inline: auto;
 					text-align: center;
-					margin-bottom: 2rem;
 
 					.title-container {
 						margin-top: 1.2rem;
@@ -920,11 +925,11 @@
 				border-radius: 1rem;
 				border: 2px solid #0f0e17;
 
-				&-right {
+				&-left {
 					box-shadow: 0px 8px #0f0e17;
 				}
 
-				&-left {
+				&-right {
 					display: none;
 				}
 
