@@ -117,7 +117,7 @@
     .lines-3 {
         position: absolute;
         transform: translate(0%, -68%);
-        max-width: 22%;
+        max-width: 23rem;
         left: 0;
         z-index: -1;
     }

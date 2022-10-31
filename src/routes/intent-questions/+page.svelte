@@ -109,13 +109,13 @@
         position: absolute;
         max-width: 22%;
         right: 0;
-        top: 50rem;
+        top: 70%;
     }
 
     .lines-3 {
         position: absolute;
         transform: translate(0%, -100%);
-        max-width: 22%;
+        max-width: 28rem;
         left: 0;
     }
 

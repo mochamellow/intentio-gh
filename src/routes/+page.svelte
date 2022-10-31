@@ -674,7 +674,7 @@
 	@media screen and (max-width: 570px) {
 
 		.lines-2 {
-			margin-top: -2rem;
+			margin-top: -3rem;
 		}
 
 		.lines-3 {
