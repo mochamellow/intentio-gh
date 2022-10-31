@@ -106,7 +106,7 @@
 	
 		<div class="feature-section feature-gap-2">
 			<div class="img-container img-container-left">
-				<a href="/intentio-questions"><button id="question-button"><img class="logo-chrome" src="./icons/eye.svg" alt="eye icon" >View Questions</button></a>
+				<a href="/intent-questions"><button id="question-button"><img class="logo-chrome" src="./icons/eye.svg" alt="eye icon" >View Questions</button></a>
 				<img class="bg-2-topleft" src="./img/feature-content-bg-2-topleft.svg" alt="background lines">
 				<img class="bg-2-bottomright" src="./img/feature-content-bg-2-bottomright.svg" alt="background lines">
 				<!-- svelte-ignore a11y-img-redundant-alt -->
