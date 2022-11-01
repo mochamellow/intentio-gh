@@ -107,7 +107,7 @@
 
     .lines-2 {
         position: absolute;
-        max-width: 22%;
+        max-width: 20vw;
         right: 0;
         top: 70%;
     }
@@ -115,8 +115,26 @@
     .lines-3 {
         position: absolute;
         transform: translate(0%, -100%);
-        max-width: 28rem;
+        max-width: 50%;
         left: 0;
+    }
+
+    @media screen and (max-width: 570px) {
+
+        .center {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+
+            h1 {
+                margin-top: 0.8rem;
+                font-size: 1.5rem;
+            }
+        }
+
+        p {
+            font-size: 0.95rem;
+            line-height: 1.3rem;
+        }
     }
 
 </style>

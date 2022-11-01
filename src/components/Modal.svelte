@@ -36,6 +36,7 @@
         padding-bottom: 32px;
         border-radius: 16px;
         max-width: 800px;
+        min-width: 600px;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -82,6 +83,41 @@
             margin-block: 0;
             line-height: 2rem;
             line-break: normal;
+        }
+    }
+
+    @media screen and (max-width: 820px) {
+        .modal {
+            width: 60vw;
+            max-width: 600px;
+            min-width: 200px;
+            padding-inline: 1.5rem;
+            padding-top: 0.5rem;
+
+            .inline-icon-text {
+
+                .help-circle {
+                    width: 1.5rem;
+                    height: 1.5rem;
+                    display: none;
+                }
+
+                .close {
+                    width: 1.5rem;
+                    height: 1.5rem;
+                    margin-right: 0px;
+                }
+
+                h4 {
+                    font-size: 1.3rem;
+                    line-height: 1.6rem;
+                }
+            }
+
+            p {
+                font-size: 1rem;
+                line-height: 1.5rem;
+            }
         }
     }
 

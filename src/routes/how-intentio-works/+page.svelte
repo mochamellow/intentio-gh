@@ -100,6 +100,7 @@
 
 <style lang="scss">
 
+
     .lines-1 {
         position: absolute;
         max-width: 22%;
@@ -189,6 +190,7 @@
 
     .references {
         margin-bottom: 5rem;
+        padding-left: 1.5rem;
 
         li {
             // Sofia Pro Regular
@@ -223,5 +225,32 @@
 		padding-inline: 40px;
 	}
 
+    @media screen and (max-width: 570px) {
+
+        .center {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+
+            h1 {
+                margin-top: 0.8rem;
+                font-size: 1.5rem;
+            }
+        }
+
+        p {
+            font-size: 0.95rem;
+            line-height: 1.3rem;
+        }
+
+        .references {
+            padding-left: 1.5rem;
+
+            li {
+                padding-left: 0 ;
+                font-size: 0.95rem;
+                line-height: 1.4rem;
+            }
+        }
+    }
 
 </style>

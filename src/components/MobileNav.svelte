@@ -60,7 +60,7 @@
 
     .modal {
         padding-inline: 40px;
-        padding-top: 7.5rem;
+        padding-top: 7.6rem;
         padding-bottom: 1.5rem;
         width: 100%;
         position: absolute;
@@ -96,6 +96,30 @@
                 margin-block: 1rem;
             }
         }
+    }
+
+    @media screen and (max-width: 820px) {
+
+        .modal {
+            padding-top: 6.5rem;
+            padding-bottom: 1.6rem;
+        }
+    }
+
+    @media screen and (max-width: 570px) {
+
+        .modal {
+            padding-top: 6rem;
+            padding-bottom: 1.2rem;
+
+            .inline-icon-text {
+    
+                h4 {
+                    font-size: 1rem;
+                }
+            }
+        }
+
     }
 
 </style>

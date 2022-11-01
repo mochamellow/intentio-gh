@@ -656,7 +656,7 @@
         h2 {
             font-family: "SofiaProSemiBold", "Satoshi", sans-serif;
             font-weight: 700;
-            font-size: 2rem;
+            font-size: 1.8rem;
 			margin-top: 1rem;
         }
     }
@@ -714,6 +714,7 @@
 		}
 
 	}
+
 
 	@media screen and (max-width: 842px) {
 
@@ -840,6 +841,8 @@
 
 						#text1 {
 							margin-bottom: 0px;
+							margin-inline: auto;
+							width: 100%;
 						}
 						
 						.one-liner-text-icon {
@@ -885,7 +888,7 @@
 
 					&-h-3 {
 						max-width: 28rem;
-						width: 50vw;
+						width: 100%;
 					}
 
 					&-p-3-1 {
@@ -900,7 +903,7 @@
 					}
 
 					&-h-4 {
-						width: 17rem;
+						width: 100%;
 					}
 
 					&-p-4 {
@@ -910,7 +913,7 @@
 
 					&-h-5 {
 						max-width: 16rem;
-						width: 100vw;
+						width: 100%;
 					}
 
 					&-p-5 {
@@ -1036,7 +1039,7 @@
 		.lines-1 {
 			position: absolute;
 			left: 0;
-			top: 6.3rem;
+			top: 5rem;
 			z-index: -1;
 			width: 8rem;
 		}
