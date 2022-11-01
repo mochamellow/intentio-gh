@@ -39,6 +39,14 @@
 </header>
 
 <style lang="scss">
+
+    @media screen and (max-width: 570px) {
+        header {
+            .content {
+                padding-inline: 24px;
+            }
+        }
+    }
     
 	@media screen and (max-width: 820px) {
 

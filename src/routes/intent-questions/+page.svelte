@@ -120,6 +120,9 @@
     }
 
     @media screen and (max-width: 570px) {
+        main {
+            padding-inline: 24px;
+        }
 
         .center {
             margin-top: 2rem;
