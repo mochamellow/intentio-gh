@@ -39,8 +39,13 @@
 </header>
 
 <style lang="scss">
-
+    
 	@media screen and (max-width: 820px) {
+
+        h1 {
+            margin-block: 0.8rem;
+        }
+
         .nav {
             a {
                 display: none;
